@@ -1,0 +1,229 @@
+{
+  "users": [
+    {
+      "_id": {"$oid": "65a123b9c2f2d8e4a0123456"},
+      "email": "john.doe@company.com",
+      "passwordHash": "$2a$10$somehashedpassword123",
+      "role": "employee",
+      "firstName": "John",
+      "lastName": "Doe",
+      "department": "Engineering",
+      "position": "Software Developer",
+      "dateJoined": {"$date": "2024-01-12T08:00:00Z"},
+      "manager": {"$oid": "65a123b9c2f2d8e4a0123457"},
+      "isActive": true,
+      "lastLogin": {"$date": "2025-01-17T09:30:00Z"},
+      "preferences": {
+        "notifications": {
+          "email": true,
+          "inApp": true,
+          "deadlineReminders": true
+        },
+        "dashboardLayout": {
+          "showTasks": true,
+          "showPerformance": true
+        }
+      }
+    },
+    {
+      "_id": {"$oid": "65a123b9c2f2d8e4a0123457"},
+      "email": "sarah.manager@company.com",
+      "passwordHash": "$2a$10$somehashedpassword456",
+      "role": "manager",
+      "firstName": "Sarah",
+      "lastName": "Wilson",
+      "department": "Engineering",
+      "position": "Engineering Manager",
+      "dateJoined": {"$date": "2023-06-15T08:00:00Z"},
+      "isActive": true,
+      "lastLogin": {"$date": "2025-01-17T10:15:00Z"},
+      "preferences": {
+        "notifications": {
+          "email": true,
+          "inApp": true,
+          "deadlineReminders": true
+        },
+        "dashboardLayout": {
+          "showTeam": true,
+          "showMetrics": true
+        }
+      }
+    }
+  ],
+  
+  "tasks": [
+    {
+      "_id": {"$oid": "65a123b9c2f2d8e4a0123458"},
+      "employeeId": {"$oid": "65a123b9c2f2d8e4a0123456"},
+      "title": "Implement User Authentication",
+      "description": "Add JWT-based authentication to the API",
+      "category": "Project",
+      "priority": "High",
+      "status": "InProgress",
+      "timeEstimated": 480,
+      "timeSpent": 240,
+      "startDate": {"$date": "2025-01-15T09:00:00Z"},
+      "deadline": {"$date": "2025-01-20T17:00:00Z"},
+      "reference": {
+        "type": "manager",
+        "refererId": {"$oid": "65a123b9c2f2d8e4a0123457"}
+      },
+      "attachments": [
+        {
+          "filename": "auth_requirements.pdf",
+          "url": "https://storage.company.com/files/auth_req.pdf",
+          "type": "pdf",
+          "uploadDate": {"$date": "2025-01-15T09:15:00Z"}
+        }
+      ],
+      "dependencies": [],
+      "tags": ["authentication", "security", "api"],
+      "comments": [
+        {
+          "userId": {"$oid": "65a123b9c2f2d8e4a0123457"},
+          "content": "Please follow our security guidelines",
+          "timestamp": {"$date": "2025-01-15T09:30:00Z"}
+        }
+      ],
+      "metrics": {
+        "efficiencyScore": 85,
+        "impactScore": 90,
+        "qualityScore": 88
+      }
+    }
+  ],
+  
+  "performanceMetrics": [
+    {
+      "_id": {"$oid": "65a123b9c2f2d8e4a0123459"},
+      "employeeId": {"$oid": "65a123b9c2f2d8e4a0123456"},
+      "period": {
+        "start": {"$date": "2025-01-01T00:00:00Z"},
+        "end": {"$date": "2025-01-31T23:59:59Z"}
+      },
+      "metrics": {
+        "tasksCompleted": 15,
+        "totalTimeSpent": 4800,
+        "efficiencyScore": 87,
+        "productivityScore": 85,
+        "taskBreakdown": {
+          "BAU": 5,
+          "AdHoc": 3,
+          "Project": 7
+        },
+        "priorityBreakdown": {
+          "Low": 2,
+          "Medium": 5,
+          "High": 6,
+          "Urgent": 2
+        }
+      },
+      "sentiment": {
+        "score": 0.8,
+        "factors": ["positive communication", "meeting deadlines"]
+      },
+      "predictions": {
+        "burnoutRisk": 0.2,
+        "performanceTrend": "Improving"
+      },
+      "achievements": [
+        {
+          "type": "efficiency",
+          "description": "Completed 10 tasks before deadline",
+          "awardedAt": {"$date": "2025-01-15T16:00:00Z"}
+        }
+      ]
+    }
+  ],
+  
+  "teams": [
+    {
+      "_id": {"$oid": "65a123b9c2f2d8e4a012345a"},
+      "name": "Backend Development",
+      "description": "Core backend development team",
+      "managerId": {"$oid": "65a123b9c2f2d8e4a0123457"},
+      "members": [
+        {"$oid": "65a123b9c2f2d8e4a0123456"}
+      ],
+      "goals": [
+        {
+          "title": "API Performance Optimization",
+          "description": "Improve API response times by 30%",
+          "targetDate": {"$date": "2025-03-31T23:59:59Z"},
+          "status": "InProgress",
+          "progress": 45
+        }
+      ],
+      "challenges": [
+        {
+          "title": "Code Quality Sprint",
+          "description": "Achieve 90% test coverage",
+          "startDate": {"$date": "2025-01-20T00:00:00Z"},
+          "endDate": {"$date": "2025-01-26T23:59:59Z"},
+          "criteria": {
+            "minTestCoverage": 90,
+            "maxTechnicalDebt": 5
+          },
+          "participants": [
+            {"$oid": "65a123b9c2f2d8e4a0123456"}
+          ],
+          "status": "Upcoming"
+        }
+      ]
+    }
+  ],
+  
+  "notifications": [
+    {
+      "_id": {"$oid": "65a123b9c2f2d8e4a012345b"},
+      "userId": {"$oid": "65a123b9c2f2d8e4a0123456"},
+      "type": "deadline",
+      "title": "Task Deadline Approaching",
+      "content": "The task 'Implement User Authentication' is due in 3 days",
+      "priority": "high",
+      "status": "unread",
+      "createdAt": {"$date": "2025-01-17T09:00:00Z"},
+      "readAt": null,
+      "relatedTo": {
+        "type": "task",
+        "id": {"$oid": "65a123b9c2f2d8e4a0123458"}
+      },
+      "action": {
+        "type": "view_task",
+        "url": "/tasks/65a123b9c2f2d8e4a0123458"
+      }
+    }
+  ],
+  
+  "reports": [
+    {
+      "_id": {"$oid": "65a123b9c2f2d8e4a012345c"},
+      "type": "weekly",
+      "generatedBy": {"$oid": "65a123b9c2f2d8e4a0123457"},
+      "period": {
+        "start": {"$date": "2025-01-08T00:00:00Z"},
+        "end": {"$date": "2025-01-14T23:59:59Z"}
+      },
+      "scope": {
+        "type": "team",
+        "targetId": {"$oid": "65a123b9c2f2d8e4a012345a"}
+      },
+      "metrics": {
+        "totalTasks": 25,
+        "completedTasks": 20,
+        "averageEfficiency": 85,
+        "teamPerformance": 88
+      },
+      "insights": [
+        {
+          "category": "Productivity",
+          "description": "Team productivity increased by 15% compared to last week",
+          "importance": "high"
+        }
+      ],
+      "generatedAt": {"$date": "2025-01-15T00:05:00Z"},
+      "format": "pdf",
+      "url": "https://storage.company.com/reports/weekly_2025_w2.pdf"
+    }
+  ]
+}
