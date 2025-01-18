@@ -2,7 +2,7 @@ import UserAvatar from "./UserAvatar";
 import Toolbar from "./Toolbar";
 import Menus from "./Menus";
 // import { auth } from "@/auth/auth";
-import CreateTaskButton from "./CreateTaskButton";
+// import CreateTaskButton from "./CreateTaskButton";
 
 const Navbar = async () => {
 	// const data = await auth();
@@ -26,7 +26,7 @@ const Navbar = async () => {
 				<Toolbar />
 			</div>
 			<Menus />
-			<CreateTaskButton />
+			{/* <CreateTaskButton /> */}
 		</div>
 	);
 };
