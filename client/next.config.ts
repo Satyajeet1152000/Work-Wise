@@ -3,8 +3,8 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
 	/* config options here */
 	env: {
-		// API_URL: "https://trello-task-management-server.onrender.com/api",
-		API_URL: "http://localhost:3000/api",
+		// API_URL: "http://localhost:3000/api",
+		API_URL: "https://work-wise-288n.onrender.com/api",
 	},
 
 	async headers() {
