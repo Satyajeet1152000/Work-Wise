@@ -139,11 +139,13 @@ const TaskLists = () => {
 
 	useEffect(() => {
 		const loadData = async () => {
+			setLoading(true);
 			const response = await getTasks(userData?._id);
 			setListRecords(response);
+			setLoading(false);
 		};
 		loadData();
-	}, []);
+	}, [userData?._id]);
 
 	return (
 		<div className='flex gap-5 pb-10 '>
@@ -151,7 +153,7 @@ const TaskLists = () => {
 				{ category: "BAU", heading: "BAU" },
 				{ category: "AdHoc", heading: "AdHoc" },
 				{ category: "Project", heading: "Project" },
-			].map((s, i) => (
+			].map((s) => (
 				<div
 					key={s.category}
 					id={s.category}

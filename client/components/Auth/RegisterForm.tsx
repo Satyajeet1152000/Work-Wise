@@ -37,7 +37,7 @@ const RegisterForm = () => {
 
 	const onSubmit = (values: z.infer<typeof RegisterSchema>) => {
 		startTransition(async () => {
-			let res = await fetch(`${process.env.API_URL}/auth/signup`, {
+			const res = await fetch(`${process.env.API_URL}/auth/signup`, {
 				method: "POST",
 				headers: {
 					"Content-Type": "application/json",

@@ -1,4 +1,4 @@
-import { Bot, ChartLine, HouseIcon, Settings, Users } from "lucide-react";
+import { Bot, ChartLine, HouseIcon, Settings } from "lucide-react";
 import React from "react";
 
 const data = [

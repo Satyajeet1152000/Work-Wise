@@ -99,11 +99,11 @@ const Performance = () => {
 	};
 
 	useEffect(() => {
-		let sortedData = [...data].sort(
+		const sortedData = [...data].sort(
 			(a, b) => b.taskquality - a.taskquality
 		);
-		let high = sortedData.slice(0, 5);
-		let low = sortedData.slice(-5).reverse();
+		const high = sortedData.slice(0, 5);
+		const low = sortedData.slice(-5).reverse();
 		setTop5({ high, low });
 	}, []);
 

@@ -42,7 +42,7 @@ const LoginForm = () => {
 			// console.log(values);
 
 			// Fetch the data from the backend
-			let res = await fetch(`${process.env.API_URL}/auth/login`, {
+			const res = await fetch(`${process.env.API_URL}/auth/login`, {
 				method: "POST",
 				headers: {
 					"Content-Type": "application/json",

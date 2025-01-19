@@ -30,7 +30,12 @@ const getRiskColor = (riskLevel: string) => {
 	}
 };
 
-export function PerformancePrediction({ data }: { data: any[] }) {
+interface PredictionData {
+	name: string;
+	futureEfficiencyScore: number;
+	riskLevel: "Low" | "Medium" | "High";
+}
+export function PerformancePrediction({ data }: { data: PredictionData[] }) {
 	return (
 		<Card className='flex flex-col flex-grow relative'>
 			<CardHeader>
