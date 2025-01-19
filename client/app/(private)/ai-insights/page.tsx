@@ -3,6 +3,7 @@ import { IndividualEfficiency } from "@/components/AiInsights/IndividualEfficien
 import { PerformanceFactors } from "@/components/AiInsights/PerformanceFactors";
 import { PerformancePrediction } from "@/components/AiInsights/PerformancePrediction";
 import React from "react";
+
 const data = {
 	users: [
 		{
@@ -61,7 +62,13 @@ const data = {
 	},
 };
 
-const performancePredictionData = [
+interface PredictionData {
+	employeeId: string;
+	name: string;
+	futureEfficiencyScore: number;
+	riskLevel: "Low" | "Medium" | "High";
+}
+const performancePredictionData: PredictionData[] = [
 	{
 		employeeId: "emp001",
 		name: "Alice Johnson",
