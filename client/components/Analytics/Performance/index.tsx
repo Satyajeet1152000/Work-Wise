@@ -1,10 +1,9 @@
 "use client";
 
-import React, { use, useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { PerformanceBarChart } from "./PerformanceBarChart";
 import { Button } from "@/components/ui/button";
 import { ChartConfig } from "@/components/ui/chart";
-import { set } from "date-fns";
 
 // metrics: {  task quality = sum of matrics / 3
 // 			efficiencyScore: 85,

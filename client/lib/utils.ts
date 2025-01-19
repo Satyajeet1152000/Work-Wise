@@ -5,8 +5,8 @@ export function cn(...inputs: ClassValue[]) {
 	return twMerge(clsx(inputs));
 }
 
-export interface ApiResponse {
+export interface ApiResponse<T = unknown> {
 	success: boolean;
-	data: any; // Adjust to the type of your data, e.g. an array or object
+	data: T;
 	error?: string;
 }

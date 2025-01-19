@@ -1,8 +1,6 @@
-"use client";
-
 import Dashboard from "@/components/Dashboard/Dashboard";
 
-const DashboardPage = async () => {
+const DashboardPage = () => {
 	return <Dashboard />;
 };
 
