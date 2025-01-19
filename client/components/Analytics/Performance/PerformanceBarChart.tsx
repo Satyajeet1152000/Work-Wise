@@ -79,6 +79,7 @@ export function PerformanceBarChart({
 							dataKey={xdataKey}
 							layout='vertical'
 							radius={5}
+							/* eslint-disable @typescript-eslint/no-explicit-any */
 							shape={(props: any) => {
 								return (
 									<rect

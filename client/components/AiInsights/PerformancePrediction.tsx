@@ -1,6 +1,13 @@
 "use client";
 
-import { Bar, BarChart, CartesianGrid, LabelList, XAxis } from "recharts";
+import {
+	Bar,
+	BarChart,
+	CartesianGrid,
+	LabelList,
+	XAxis,
+	BarProps,
+} from "recharts";
 
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import {
@@ -90,6 +97,7 @@ export function PerformancePrediction({ data }: { data: PredictionData[] }) {
 						<Bar
 							dataKey='futureEfficiencyScore'
 							radius={5}
+							/* eslint-disable @typescript-eslint/no-explicit-any */
 							shape={(props: any) => {
 								const { x, y, width, height, payload } = props;
 								return (
