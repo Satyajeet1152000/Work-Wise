@@ -13,22 +13,15 @@ interface UserContextType {
 const UserContext = createContext<UserContextType | undefined>(undefined);
 
 export const UserProvider = ({ children }: React.PropsWithChildren) => {
-	const [userData, setUserData] = useState<UserType | null>(() => {
+	const [userData, setUserData] = useState<UserType | null>(null);
+
+	useEffect(() => {
+		// Check for localStorage only on the client-side
 		const storedData = localStorage.getItem("userData");
 		if (storedData) {
-			return JSON.parse(storedData);
+			setUserData(JSON.parse(storedData));
 		}
-		return null;
-	});
-	// const [isClient, setIsClient] = useState(false);
-
-	// useEffect(() => {
-	// 	setIsClient(true); // Ensure this runs only on the client
-	// 	const storedData = localStorage.getItem("userData");
-	// 	if (storedData) {
-	// 		setUserData(JSON.parse(storedData));
-	// 	}
-	// }, []);
+	}, []); // This useEffect will run only after the component mounts
 
 	const logout = () => {
 		setUserData(null);
