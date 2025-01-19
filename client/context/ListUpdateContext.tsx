@@ -1,13 +1,13 @@
 "use client";
 
-import { PriorityType, StatusType } from "@/lib/schema";
+import { TaskType } from "@/lib/schema";
 import { createContext, ReactNode, useContext, useState } from "react";
 
 type ReceivedTaskType = {
 	_id: string;
 	title: string;
-	status: StatusType;
-	priority: PriorityType;
+	status: TaskType["status"];
+	priority: TaskType["priority"];
 	deadline: Date;
 	description?: string;
 	favorite: boolean;
