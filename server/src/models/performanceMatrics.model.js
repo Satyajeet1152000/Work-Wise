@@ -60,4 +60,9 @@ performanceMetricSchema.index({
 });
 performanceMetricSchema.index({ "metrics.efficiencyScore": 1 });
 
-export default mongoose.model("PerformanceMetric", performanceMetricSchema);
+const PerformanceMetric = mongoose.model(
+	"PerformanceMetric",
+	performanceMetricSchema
+);
+
+export default PerformanceMetric;

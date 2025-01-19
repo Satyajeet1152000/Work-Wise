@@ -65,7 +65,7 @@ const taskSchema = new mongoose.Schema(
 		reference: {
 			type: {
 				type: String,
-				enum: ["manager", "colleague", "client"],
+				enum: ["manager", "colleague"],
 			},
 			refererId: {
 				type: mongoose.Schema.Types.ObjectId,
@@ -73,12 +73,6 @@ const taskSchema = new mongoose.Schema(
 			},
 		},
 		attachments: [attachmentSchema],
-		dependencies: [
-			{
-				type: mongoose.Schema.Types.ObjectId,
-				ref: "Task",
-			},
-		],
 		tags: [String],
 		comments: [commentSchema],
 		metrics: {
@@ -98,4 +92,6 @@ taskSchema.index({ deadline: 1 });
 taskSchema.index({ category: 1 });
 taskSchema.index({ "reference.refererId": 1 });
 
-export default mongoose.model("Task", taskSchema);
+const Task = mongoose.model("Task", taskSchema);
+
+export default Task;

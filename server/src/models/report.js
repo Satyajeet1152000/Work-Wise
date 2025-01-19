@@ -49,4 +49,6 @@ reportSchema.index({ "scope.targetId": 1, type: 1 });
 reportSchema.index({ generatedBy: 1 });
 reportSchema.index({ "period.start": 1, "period.end": 1 });
 
-export default mongoose.model("Report", reportSchema);
+const Report = mongoose.model("Report", reportSchema);
+
+export default Report;

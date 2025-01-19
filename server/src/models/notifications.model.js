@@ -27,21 +27,10 @@ const notificationSchema = new mongoose.Schema(
 		},
 		status: {
 			type: String,
-			enum: ["unread", "read", "archived"],
+			enum: ["unread", "read"],
 			default: "unread",
 		},
 		readAt: Date,
-		relatedTo: {
-			type: {
-				type: String,
-				enum: ["task", "challenge", "performance"],
-			},
-			id: mongoose.Schema.Types.ObjectId,
-		},
-		action: {
-			type: String,
-			url: String,
-		},
 	},
 	{
 		timestamps: true,
@@ -52,4 +41,6 @@ const notificationSchema = new mongoose.Schema(
 notificationSchema.index({ userId: 1, status: 1 });
 notificationSchema.index({ createdAt: 1 });
 
-export default mongoose.model("Notification", notificationSchema);
+const Notification = mongoose.model("Notification", notificationSchema);
+
+export default Notification;

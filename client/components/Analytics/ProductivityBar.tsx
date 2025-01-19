@@ -18,18 +18,18 @@ import {
 	ChartTooltipContent,
 } from "@/components/ui/chart";
 const chartData = [
-	{ day: "Sunday", desktop: 186 },
-	{ day: "Monday", desktop: 256 },
-	{ day: "Tuesday", desktop: 16 },
-	{ day: "Wednesday", desktop: 126 },
-	{ day: "Thursday", desktop: 134 },
-	{ day: "Friday", desktop: 86 },
-	{ day: "Saturday", desktop: 178 },
+	{ day: "Sunday", value: 186 },
+	{ day: "Monday", value: 256 },
+	{ day: "Tuesday", value: 16 },
+	{ day: "Wednesday", value: 126 },
+	{ day: "Thursday", value: 134 },
+	{ day: "Friday", value: 86 },
+	{ day: "Saturday", value: 178 },
 ];
 
 const chartConfig = {
-	desktop: {
-		label: "Desktop",
+	value: {
+		label: "Productivity",
 		color: "hsl(var(--chart-1))",
 	},
 } satisfies ChartConfig;
@@ -63,8 +63,8 @@ export function ProductivityBar() {
 							content={<ChartTooltipContent hideLabel />}
 						/>
 						<Bar
-							dataKey='desktop'
-							fill='var(--color-desktop)'
+							dataKey='value'
+							fill='var(--color-value)'
 							radius={3}
 						>
 							<LabelList

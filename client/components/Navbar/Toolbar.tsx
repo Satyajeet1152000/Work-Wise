@@ -4,15 +4,15 @@ import { BellDot, ChevronsRight, Moon, Sun } from "lucide-react";
 import { useTheme } from "next-themes";
 import useMount from "@/hooks/useMount";
 import { Button } from "../ui/button";
+import { useUser } from "@/context/UserContext";
 
 const Toolbar = () => {
 	const { theme, setTheme } = useTheme();
 	const mount = useMount();
-	if (!mount) return null;
 
-	function signOut(options?: { callbackUrl?: string }) {
-		const { callbackUrl } = options || {};
-	}
+	const { logout } = useUser();
+
+	if (!mount) return null;
 
 	return (
 		<div className='text-gray-500 flex items-center justify-between py-2'>
@@ -40,7 +40,7 @@ const Toolbar = () => {
 				// type="submit"
 				variant={"link"}
 				className='text-lg text-gray-500'
-				onClick={() => signOut({ callbackUrl: "/login" })}
+				onClick={() => logout()}
 			>
 				Logout
 			</Button>

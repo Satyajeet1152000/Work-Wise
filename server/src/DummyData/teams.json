@@ -1,0 +1,3392 @@
+[
+	{
+		"name": "Gamma Techies",
+		"description": "Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.\n\nInteger ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.",
+		"managerId": "678c13e1429a7403ec849701",
+		"members": [
+			"678c13e1429a7403ec849701",
+			"678c13e1429a7403ec849701",
+			"678c13e1429a7403ec849701"
+		],
+		"goals": [
+			{
+				"title": "Improve Security Features",
+				"description": "Implement multi-factor authentication and encryption for user data.",
+				"targetDate": "2025-05-15T00:00:00.000Z",
+				"status": "InProgress",
+				"progress": 56
+			},
+			{
+				"title": "Launch New Feature",
+				"description": "Develop and release the new feature for the mobile app.",
+				"targetDate": "2025-02-28T00:00:00.000Z",
+				"status": "Overdue",
+				"progress": 18
+			},
+			{
+				"title": "Enhance User Experience",
+				"description": "Redesign the homepage to improve navigation and overall experience.",
+				"targetDate": "2025-04-01T00:00:00.000Z",
+				"status": "Completed",
+				"progress": 8
+			},
+			{
+				"title": "Launch Mobile Application",
+				"description": "Develop and launch the mobile application version of the product.",
+				"targetDate": "2025-08-01T00:00:00.000Z",
+				"status": "Completed",
+				"progress": 91
+			},
+			{
+				"title": "Reduce Bug Count",
+				"description": "Fix at least 90% of reported bugs in the current sprint.",
+				"targetDate": "2025-01-31T00:00:00.000Z",
+				"status": "Pending",
+				"progress": 10
+			}
+		],
+		"challenges": [
+			{
+				"title": "Sustainability Challenge",
+				"description": "Design a more eco-friendly tech solution.",
+				"startDate": "2025-06-01T09:00:00.000Z",
+				"endDate": "2025-06-10T18:00:00.000Z",
+				"criteria": { "creativity": 87, "execution": 61, "impact": 80 },
+				"participants": [],
+				"status": "Pending"
+			},
+			{
+				"title": "Mobile App Challenge",
+				"description": "Create a new mobile application to streamline processes.",
+				"startDate": "2025-07-01T09:00:00.000Z",
+				"endDate": "2025-07-10T18:00:00.000Z",
+				"criteria": { "creativity": 83, "execution": 96, "impact": 59 },
+				"participants": [],
+				"status": "InProgress"
+			}
+		]
+	},
+	{
+		"name": "Lambda Seekers",
+		"description": "Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.",
+		"managerId": "678c13e1429a7403ec849701",
+		"members": ["678c13e1429a7403ec849701"],
+		"goals": [
+			{
+				"title": "Launch New Feature",
+				"description": "Develop and release the new feature for the mobile app.",
+				"targetDate": "2025-02-28T00:00:00.000Z",
+				"status": "Overdue",
+				"progress": 95
+			},
+			{
+				"title": "Automate Manual Testing",
+				"description": "Automate at least 80% of the manual testing processes.",
+				"targetDate": "2025-03-01T00:00:00.000Z",
+				"status": "Overdue",
+				"progress": 18
+			},
+			{
+				"title": "Reduce Bug Count",
+				"description": "Fix at least 90% of reported bugs in the current sprint.",
+				"targetDate": "2025-01-31T00:00:00.000Z",
+				"status": "Overdue",
+				"progress": 16
+			},
+			{
+				"title": "Enhance User Experience",
+				"description": "Redesign the homepage to improve navigation and overall experience.",
+				"targetDate": "2025-04-01T00:00:00.000Z",
+				"status": "Completed",
+				"progress": 54
+			}
+		],
+		"challenges": [
+			{
+				"title": "Cybersecurity Awareness Challenge",
+				"description": "Develop a new cybersecurity training module for employees.",
+				"startDate": "2025-08-01T09:00:00.000Z",
+				"endDate": "2025-08-10T18:00:00.000Z",
+				"criteria": { "creativity": 37, "execution": 49, "impact": 34 },
+				"participants": [],
+				"status": "Overdue"
+			},
+			{
+				"title": "Sustainability Challenge",
+				"description": "Design a more eco-friendly tech solution.",
+				"startDate": "2025-06-01T09:00:00.000Z",
+				"endDate": "2025-06-10T18:00:00.000Z",
+				"criteria": { "creativity": 57, "execution": 96, "impact": 63 },
+				"participants": [],
+				"status": "Completed"
+			},
+			{
+				"title": "Hackathon 2025: DevOps",
+				"description": "Focus on creating automation tools for DevOps teams.",
+				"startDate": "2025-05-01T09:00:00.000Z",
+				"endDate": "2025-05-05T18:00:00.000Z",
+				"criteria": { "creativity": 62, "execution": 71, "impact": 27 },
+				"participants": [],
+				"status": "Completed"
+			},
+			{
+				"title": "Hackathon 2025",
+				"description": "Internal hackathon to develop innovative tools.",
+				"startDate": "2025-01-20T09:00:00.000Z",
+				"endDate": "2025-01-22T18:00:00.000Z",
+				"criteria": { "creativity": 48, "execution": 81, "impact": 85 },
+				"participants": [],
+				"status": "Overdue"
+			},
+			{
+				"title": "Team Collaboration Challenge",
+				"description": "Challenge to foster better collaboration within teams.",
+				"startDate": "2025-02-01T09:00:00.000Z",
+				"endDate": "2025-02-10T18:00:00.000Z",
+				"criteria": { "creativity": 30, "execution": 95, "impact": 55 },
+				"participants": [],
+				"status": "Overdue"
+			}
+		]
+	},
+	{
+		"name": "Rho Architects",
+		"description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.\n\nVestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.\n\nDuis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.",
+		"managerId": "678c13e1429a7403ec849701",
+		"members": ["678c13e1429a7403ec849701"],
+		"goals": [
+			{
+				"title": "Launch New Feature",
+				"description": "Develop and release the new feature for the mobile app.",
+				"targetDate": "2025-02-28T00:00:00.000Z",
+				"status": "InProgress",
+				"progress": 66
+			},
+			{
+				"title": "Improve Security Features",
+				"description": "Implement multi-factor authentication and encryption for user data.",
+				"targetDate": "2025-05-15T00:00:00.000Z",
+				"status": "InProgress",
+				"progress": 37
+			}
+		],
+		"challenges": [
+			{
+				"title": "Cybersecurity Awareness Challenge",
+				"description": "Develop a new cybersecurity training module for employees.",
+				"startDate": "2025-08-01T09:00:00.000Z",
+				"endDate": "2025-08-10T18:00:00.000Z",
+				"criteria": { "creativity": 83, "execution": 65, "impact": 27 },
+				"participants": [],
+				"status": "Overdue"
+			},
+			{
+				"title": "Sustainability Challenge",
+				"description": "Design a more eco-friendly tech solution.",
+				"startDate": "2025-06-01T09:00:00.000Z",
+				"endDate": "2025-06-10T18:00:00.000Z",
+				"criteria": { "creativity": 33, "execution": 19, "impact": 17 },
+				"participants": [],
+				"status": "Pending"
+			},
+			{
+				"title": "Hackathon 2025: Cloud Solutions",
+				"description": "Create cloud-based solutions to improve data storage.",
+				"startDate": "2025-09-01T09:00:00.000Z",
+				"endDate": "2025-09-05T18:00:00.000Z",
+				"criteria": { "creativity": 94, "execution": 7, "impact": 46 },
+				"participants": [],
+				"status": "Pending"
+			},
+			{
+				"title": "Productivity Boost Challenge",
+				"description": "Challenge to improve personal productivity by 20%.",
+				"startDate": "2025-03-05T09:00:00.000Z",
+				"endDate": "2025-03-12T18:00:00.000Z",
+				"criteria": { "creativity": 77, "execution": 83, "impact": 98 },
+				"participants": [],
+				"status": "Completed"
+			}
+		]
+	},
+	{
+		"name": "Sigma Experts",
+		"description": "Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.\n\nSed ante. Vivamus tortor. Duis mattis egestas metus.\n\nAenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.",
+		"managerId": "678c13e1429a7403ec849701",
+		"members": ["678c13e1429a7403ec849701"],
+		"goals": [
+			{
+				"title": "Automate Manual Testing",
+				"description": "Automate at least 80% of the manual testing processes.",
+				"targetDate": "2025-03-01T00:00:00.000Z",
+				"status": "Overdue",
+				"progress": 94
+			},
+			{
+				"title": "Complete API Refactoring",
+				"description": "Refactor the current API to improve scalability and performance.",
+				"targetDate": "2025-04-15T00:00:00.000Z",
+				"status": "Overdue",
+				"progress": 17
+			},
+			{
+				"title": "Improve Application Performance",
+				"description": "Increase app load speed by 30% within the next quarter.",
+				"targetDate": "2025-03-31T00:00:00.000Z",
+				"status": "Pending",
+				"progress": 75
+			}
+		],
+		"challenges": [
+			{
+				"title": "Cybersecurity Awareness Challenge",
+				"description": "Develop a new cybersecurity training module for employees.",
+				"startDate": "2025-08-01T09:00:00.000Z",
+				"endDate": "2025-08-10T18:00:00.000Z",
+				"criteria": { "creativity": 37, "execution": 93, "impact": 94 },
+				"participants": [],
+				"status": "InProgress"
+			},
+			{
+				"title": "Productivity Boost Challenge",
+				"description": "Challenge to improve personal productivity by 20%.",
+				"startDate": "2025-03-05T09:00:00.000Z",
+				"endDate": "2025-03-12T18:00:00.000Z",
+				"criteria": { "creativity": 91, "execution": 65, "impact": 64 },
+				"participants": [],
+				"status": "Pending"
+			},
+			{
+				"title": "Sustainability Challenge",
+				"description": "Design a more eco-friendly tech solution.",
+				"startDate": "2025-06-01T09:00:00.000Z",
+				"endDate": "2025-06-10T18:00:00.000Z",
+				"criteria": { "creativity": 62, "execution": 74, "impact": 59 },
+				"participants": [],
+				"status": "Overdue"
+			},
+			{
+				"title": "Hackathon 2025: DevOps",
+				"description": "Focus on creating automation tools for DevOps teams.",
+				"startDate": "2025-05-01T09:00:00.000Z",
+				"endDate": "2025-05-05T18:00:00.000Z",
+				"criteria": { "creativity": 3, "execution": 27, "impact": 76 },
+				"participants": [],
+				"status": "Overdue"
+			},
+			{
+				"title": "Hackathon 2025",
+				"description": "Internal hackathon to develop innovative tools.",
+				"startDate": "2025-01-20T09:00:00.000Z",
+				"endDate": "2025-01-22T18:00:00.000Z",
+				"criteria": { "creativity": 39, "execution": 54, "impact": 54 },
+				"participants": [],
+				"status": "InProgress"
+			}
+		]
+	},
+	{
+		"name": "Alpha Innovators",
+		"description": "Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.",
+		"managerId": "678c13e1429a7403ec849701",
+		"members": ["678c13e1429a7403ec849701"],
+		"goals": [
+			{
+				"title": "Automate Manual Testing",
+				"description": "Automate at least 80% of the manual testing processes.",
+				"targetDate": "2025-03-01T00:00:00.000Z",
+				"status": "InProgress",
+				"progress": 25
+			},
+			{
+				"title": "Improve Security Features",
+				"description": "Implement multi-factor authentication and encryption for user data.",
+				"targetDate": "2025-05-15T00:00:00.000Z",
+				"status": "InProgress",
+				"progress": 29
+			},
+			{
+				"title": "Launch Mobile Application",
+				"description": "Develop and launch the mobile application version of the product.",
+				"targetDate": "2025-08-01T00:00:00.000Z",
+				"status": "Completed",
+				"progress": 26
+			}
+		],
+		"challenges": [
+			{
+				"title": "Sustainability Challenge",
+				"description": "Design a more eco-friendly tech solution.",
+				"startDate": "2025-06-01T09:00:00.000Z",
+				"endDate": "2025-06-10T18:00:00.000Z",
+				"criteria": { "creativity": 72, "execution": 31, "impact": 45 },
+				"participants": [],
+				"status": "Completed"
+			},
+			{
+				"title": "Cybersecurity Awareness Challenge",
+				"description": "Develop a new cybersecurity training module for employees.",
+				"startDate": "2025-08-01T09:00:00.000Z",
+				"endDate": "2025-08-10T18:00:00.000Z",
+				"criteria": { "creativity": 46, "execution": 12, "impact": 55 },
+				"participants": [],
+				"status": "Overdue"
+			}
+		]
+	},
+	{
+		"name": "Iota Creators",
+		"description": "In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.\n\nNulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.\n\nCras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.",
+		"managerId": "678c13e1429a7403ec849701",
+		"members": ["678c13e1429a7403ec849701", "678c13e1429a7403ec849701"],
+		"goals": [
+			{
+				"title": "Improve Security Features",
+				"description": "Implement multi-factor authentication and encryption for user data.",
+				"targetDate": "2025-05-15T00:00:00.000Z",
+				"status": "Completed",
+				"progress": 14
+			},
+			{
+				"title": "Improve Application Performance",
+				"description": "Increase app load speed by 30% within the next quarter.",
+				"targetDate": "2025-03-31T00:00:00.000Z",
+				"status": "Completed",
+				"progress": 82
+			},
+			{
+				"title": "Enhance User Experience",
+				"description": "Redesign the homepage to improve navigation and overall experience.",
+				"targetDate": "2025-04-01T00:00:00.000Z",
+				"status": "Pending",
+				"progress": 58
+			},
+			{
+				"title": "Achieve 100% Code Coverage",
+				"description": "Ensure all critical backend APIs have 100% unit test coverage.",
+				"targetDate": "2025-02-15T00:00:00.000Z",
+				"status": "Pending",
+				"progress": 30
+			},
+			{
+				"title": "Reduce Bug Count",
+				"description": "Fix at least 90% of reported bugs in the current sprint.",
+				"targetDate": "2025-01-31T00:00:00.000Z",
+				"status": "InProgress",
+				"progress": 85
+			}
+		],
+		"challenges": [
+			{
+				"title": "Hackathon 2025: Cloud Solutions",
+				"description": "Create cloud-based solutions to improve data storage.",
+				"startDate": "2025-09-01T09:00:00.000Z",
+				"endDate": "2025-09-05T18:00:00.000Z",
+				"criteria": { "creativity": 89, "execution": 60, "impact": 17 },
+				"participants": [],
+				"status": "Completed"
+			},
+			{
+				"title": "Productivity Boost Challenge",
+				"description": "Challenge to improve personal productivity by 20%.",
+				"startDate": "2025-03-05T09:00:00.000Z",
+				"endDate": "2025-03-12T18:00:00.000Z",
+				"criteria": { "creativity": 46, "execution": 31, "impact": 52 },
+				"participants": [],
+				"status": "InProgress"
+			}
+		]
+	},
+	{
+		"name": "Xi Designers",
+		"description": "Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.\n\nFusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.\n\nSed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.",
+		"managerId": "678c13e1429a7403ec849701",
+		"members": [
+			"678c13e1429a7403ec849701",
+			"678c13e1429a7403ec849701",
+			"678c13e1429a7403ec849701"
+		],
+		"goals": [
+			{
+				"title": "Improve Application Performance",
+				"description": "Increase app load speed by 30% within the next quarter.",
+				"targetDate": "2025-03-31T00:00:00.000Z",
+				"status": "Completed",
+				"progress": 89
+			},
+			{
+				"title": "Reduce Bug Count",
+				"description": "Fix at least 90% of reported bugs in the current sprint.",
+				"targetDate": "2025-01-31T00:00:00.000Z",
+				"status": "InProgress",
+				"progress": 8
+			}
+		],
+		"challenges": [
+			{
+				"title": "AI Innovation Challenge",
+				"description": "Develop an AI-based solution for customer support.",
+				"startDate": "2025-04-10T09:00:00.000Z",
+				"endDate": "2025-04-14T18:00:00.000Z",
+				"criteria": { "creativity": 54, "execution": 36, "impact": 93 },
+				"participants": [],
+				"status": "InProgress"
+			},
+			{
+				"title": "Cybersecurity Awareness Challenge",
+				"description": "Develop a new cybersecurity training module for employees.",
+				"startDate": "2025-08-01T09:00:00.000Z",
+				"endDate": "2025-08-10T18:00:00.000Z",
+				"criteria": { "creativity": 52, "execution": 0, "impact": 89 },
+				"participants": [],
+				"status": "InProgress"
+			},
+			{
+				"title": "Team Collaboration Challenge",
+				"description": "Challenge to foster better collaboration within teams.",
+				"startDate": "2025-02-01T09:00:00.000Z",
+				"endDate": "2025-02-10T18:00:00.000Z",
+				"criteria": { "creativity": 84, "execution": 42, "impact": 52 },
+				"participants": [],
+				"status": "InProgress"
+			},
+			{
+				"title": "Mobile App Challenge",
+				"description": "Create a new mobile application to streamline processes.",
+				"startDate": "2025-07-01T09:00:00.000Z",
+				"endDate": "2025-07-10T18:00:00.000Z",
+				"criteria": { "creativity": 33, "execution": 23, "impact": 92 },
+				"participants": [],
+				"status": "Completed"
+			}
+		]
+	},
+	{
+		"name": "Rho Architects",
+		"description": "Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.\n\nSed ante. Vivamus tortor. Duis mattis egestas metus.",
+		"managerId": "678c13e1429a7403ec849701",
+		"members": ["678c13e1429a7403ec849701"],
+		"goals": [
+			{
+				"title": "Improve Security Features",
+				"description": "Implement multi-factor authentication and encryption for user data.",
+				"targetDate": "2025-05-15T00:00:00.000Z",
+				"status": "Completed",
+				"progress": 56
+			},
+			{
+				"title": "Migrate to Cloud",
+				"description": "Migrate the infrastructure and applications to a cloud provider.",
+				"targetDate": "2025-06-30T00:00:00.000Z",
+				"status": "Pending",
+				"progress": 72
+			},
+			{
+				"title": "Complete API Refactoring",
+				"description": "Refactor the current API to improve scalability and performance.",
+				"targetDate": "2025-04-15T00:00:00.000Z",
+				"status": "Overdue",
+				"progress": 0
+			},
+			{
+				"title": "Launch New Feature",
+				"description": "Develop and release the new feature for the mobile app.",
+				"targetDate": "2025-02-28T00:00:00.000Z",
+				"status": "Overdue",
+				"progress": 15
+			}
+		],
+		"challenges": [
+			{
+				"title": "AI Innovation Challenge",
+				"description": "Develop an AI-based solution for customer support.",
+				"startDate": "2025-04-10T09:00:00.000Z",
+				"endDate": "2025-04-14T18:00:00.000Z",
+				"criteria": { "creativity": 10, "execution": 81, "impact": 16 },
+				"participants": [],
+				"status": "Pending"
+			},
+			{
+				"title": "Hackathon 2025",
+				"description": "Internal hackathon to develop innovative tools.",
+				"startDate": "2025-01-20T09:00:00.000Z",
+				"endDate": "2025-01-22T18:00:00.000Z",
+				"criteria": { "creativity": 51, "execution": 17, "impact": 42 },
+				"participants": [],
+				"status": "InProgress"
+			},
+			{
+				"title": "Hackathon 2025: Cloud Solutions",
+				"description": "Create cloud-based solutions to improve data storage.",
+				"startDate": "2025-09-01T09:00:00.000Z",
+				"endDate": "2025-09-05T18:00:00.000Z",
+				"criteria": { "creativity": 46, "execution": 62, "impact": 82 },
+				"participants": [],
+				"status": "Completed"
+			}
+		]
+	},
+	{
+		"name": "Alpha Innovators",
+		"description": "Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.\n\nFusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.\n\nSed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.",
+		"managerId": "678c13e1429a7403ec849701",
+		"members": [
+			"678c13e1429a7403ec849701",
+			"678c13e1429a7403ec849701",
+			"678c13e1429a7403ec849701"
+		],
+		"goals": [
+			{
+				"title": "Achieve 100% Code Coverage",
+				"description": "Ensure all critical backend APIs have 100% unit test coverage.",
+				"targetDate": "2025-02-15T00:00:00.000Z",
+				"status": "Completed",
+				"progress": 58
+			},
+			{
+				"title": "Reduce Bug Count",
+				"description": "Fix at least 90% of reported bugs in the current sprint.",
+				"targetDate": "2025-01-31T00:00:00.000Z",
+				"status": "Overdue",
+				"progress": 2
+			}
+		],
+		"challenges": [
+			{
+				"title": "Sustainability Challenge",
+				"description": "Design a more eco-friendly tech solution.",
+				"startDate": "2025-06-01T09:00:00.000Z",
+				"endDate": "2025-06-10T18:00:00.000Z",
+				"criteria": { "creativity": 3, "execution": 83, "impact": 10 },
+				"participants": [],
+				"status": "Overdue"
+			},
+			{
+				"title": "Hackathon 2025",
+				"description": "Internal hackathon to develop innovative tools.",
+				"startDate": "2025-01-20T09:00:00.000Z",
+				"endDate": "2025-01-22T18:00:00.000Z",
+				"criteria": { "creativity": 76, "execution": 57, "impact": 43 },
+				"participants": [],
+				"status": "Pending"
+			},
+			{
+				"title": "Productivity Boost Challenge",
+				"description": "Challenge to improve personal productivity by 20%.",
+				"startDate": "2025-03-05T09:00:00.000Z",
+				"endDate": "2025-03-12T18:00:00.000Z",
+				"criteria": { "creativity": 82, "execution": 12, "impact": 70 },
+				"participants": [],
+				"status": "InProgress"
+			},
+			{
+				"title": "Team Collaboration Challenge",
+				"description": "Challenge to foster better collaboration within teams.",
+				"startDate": "2025-02-01T09:00:00.000Z",
+				"endDate": "2025-02-10T18:00:00.000Z",
+				"criteria": { "creativity": 71, "execution": 49, "impact": 51 },
+				"participants": [],
+				"status": "InProgress"
+			},
+			{
+				"title": "Mobile App Challenge",
+				"description": "Create a new mobile application to streamline processes.",
+				"startDate": "2025-07-01T09:00:00.000Z",
+				"endDate": "2025-07-10T18:00:00.000Z",
+				"criteria": { "creativity": 41, "execution": 21, "impact": 50 },
+				"participants": [],
+				"status": "Pending"
+			}
+		]
+	},
+	{
+		"name": "Omicron Masters",
+		"description": "Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.",
+		"managerId": "678c13e1429a7403ec849701",
+		"members": ["678c13e1429a7403ec849701"],
+		"goals": [
+			{
+				"title": "Improve Application Performance",
+				"description": "Increase app load speed by 30% within the next quarter.",
+				"targetDate": "2025-03-31T00:00:00.000Z",
+				"status": "Overdue",
+				"progress": 83
+			},
+			{
+				"title": "Achieve 100% Code Coverage",
+				"description": "Ensure all critical backend APIs have 100% unit test coverage.",
+				"targetDate": "2025-02-15T00:00:00.000Z",
+				"status": "Overdue",
+				"progress": 0
+			},
+			{
+				"title": "Improve Security Features",
+				"description": "Implement multi-factor authentication and encryption for user data.",
+				"targetDate": "2025-05-15T00:00:00.000Z",
+				"status": "Pending",
+				"progress": 44
+			},
+			{
+				"title": "Launch Mobile Application",
+				"description": "Develop and launch the mobile application version of the product.",
+				"targetDate": "2025-08-01T00:00:00.000Z",
+				"status": "Completed",
+				"progress": 31
+			}
+		],
+		"challenges": [
+			{
+				"title": "Hackathon 2025",
+				"description": "Internal hackathon to develop innovative tools.",
+				"startDate": "2025-01-20T09:00:00.000Z",
+				"endDate": "2025-01-22T18:00:00.000Z",
+				"criteria": { "creativity": 20, "execution": 14, "impact": 71 },
+				"participants": [],
+				"status": "Overdue"
+			},
+			{
+				"title": "Sustainability Challenge",
+				"description": "Design a more eco-friendly tech solution.",
+				"startDate": "2025-06-01T09:00:00.000Z",
+				"endDate": "2025-06-10T18:00:00.000Z",
+				"criteria": { "creativity": 31, "execution": 41, "impact": 73 },
+				"participants": [],
+				"status": "Overdue"
+			},
+			{
+				"title": "Productivity Boost Challenge",
+				"description": "Challenge to improve personal productivity by 20%.",
+				"startDate": "2025-03-05T09:00:00.000Z",
+				"endDate": "2025-03-12T18:00:00.000Z",
+				"criteria": { "creativity": 98, "execution": 96, "impact": 44 },
+				"participants": [],
+				"status": "Overdue"
+			},
+			{
+				"title": "Team Collaboration Challenge",
+				"description": "Challenge to foster better collaboration within teams.",
+				"startDate": "2025-02-01T09:00:00.000Z",
+				"endDate": "2025-02-10T18:00:00.000Z",
+				"criteria": { "creativity": 6, "execution": 37, "impact": 87 },
+				"participants": [],
+				"status": "InProgress"
+			},
+			{
+				"title": "Cybersecurity Awareness Challenge",
+				"description": "Develop a new cybersecurity training module for employees.",
+				"startDate": "2025-08-01T09:00:00.000Z",
+				"endDate": "2025-08-10T18:00:00.000Z",
+				"criteria": { "creativity": 35, "execution": 66, "impact": 75 },
+				"participants": [],
+				"status": "InProgress"
+			}
+		]
+	},
+	{
+		"name": "Nu Problem Solvers",
+		"description": "Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.\n\nProin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.\n\nDuis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.",
+		"managerId": "678c13e1429a7403ec849701",
+		"members": ["678c13e1429a7403ec849701", "678c13e1429a7403ec849701"],
+		"goals": [
+			{
+				"title": "Migrate to Cloud",
+				"description": "Migrate the infrastructure and applications to a cloud provider.",
+				"targetDate": "2025-06-30T00:00:00.000Z",
+				"status": "Overdue",
+				"progress": 32
+			},
+			{
+				"title": "Automate Manual Testing",
+				"description": "Automate at least 80% of the manual testing processes.",
+				"targetDate": "2025-03-01T00:00:00.000Z",
+				"status": "Pending",
+				"progress": 69
+			}
+		],
+		"challenges": [
+			{
+				"title": "AI Innovation Challenge",
+				"description": "Develop an AI-based solution for customer support.",
+				"startDate": "2025-04-10T09:00:00.000Z",
+				"endDate": "2025-04-14T18:00:00.000Z",
+				"criteria": { "creativity": 28, "execution": 31, "impact": 76 },
+				"participants": [],
+				"status": "InProgress"
+			},
+			{
+				"title": "Sustainability Challenge",
+				"description": "Design a more eco-friendly tech solution.",
+				"startDate": "2025-06-01T09:00:00.000Z",
+				"endDate": "2025-06-10T18:00:00.000Z",
+				"criteria": { "creativity": 63, "execution": 25, "impact": 91 },
+				"participants": [],
+				"status": "InProgress"
+			}
+		]
+	},
+	{
+		"name": "Nu Problem Solvers",
+		"description": "Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.\n\nCras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
+		"managerId": "678c13e1429a7403ec849701",
+		"members": ["678c13e1429a7403ec849701"],
+		"goals": [
+			{
+				"title": "Improve Security Features",
+				"description": "Implement multi-factor authentication and encryption for user data.",
+				"targetDate": "2025-05-15T00:00:00.000Z",
+				"status": "InProgress",
+				"progress": 90
+			},
+			{
+				"title": "Improve Application Performance",
+				"description": "Increase app load speed by 30% within the next quarter.",
+				"targetDate": "2025-03-31T00:00:00.000Z",
+				"status": "Pending",
+				"progress": 75
+			},
+			{
+				"title": "Launch Mobile Application",
+				"description": "Develop and launch the mobile application version of the product.",
+				"targetDate": "2025-08-01T00:00:00.000Z",
+				"status": "Pending",
+				"progress": 27
+			}
+		],
+		"challenges": [
+			{
+				"title": "Mobile App Challenge",
+				"description": "Create a new mobile application to streamline processes.",
+				"startDate": "2025-07-01T09:00:00.000Z",
+				"endDate": "2025-07-10T18:00:00.000Z",
+				"criteria": { "creativity": 90, "execution": 69, "impact": 99 },
+				"participants": [],
+				"status": "Completed"
+			},
+			{
+				"title": "Hackathon 2025: Cloud Solutions",
+				"description": "Create cloud-based solutions to improve data storage.",
+				"startDate": "2025-09-01T09:00:00.000Z",
+				"endDate": "2025-09-05T18:00:00.000Z",
+				"criteria": { "creativity": 69, "execution": 97, "impact": 72 },
+				"participants": [],
+				"status": "InProgress"
+			},
+			{
+				"title": "Hackathon 2025",
+				"description": "Internal hackathon to develop innovative tools.",
+				"startDate": "2025-01-20T09:00:00.000Z",
+				"endDate": "2025-01-22T18:00:00.000Z",
+				"criteria": { "creativity": 33, "execution": 84, "impact": 69 },
+				"participants": [],
+				"status": "Completed"
+			},
+			{
+				"title": "AI Innovation Challenge",
+				"description": "Develop an AI-based solution for customer support.",
+				"startDate": "2025-04-10T09:00:00.000Z",
+				"endDate": "2025-04-14T18:00:00.000Z",
+				"criteria": { "creativity": 57, "execution": 69, "impact": 11 },
+				"participants": [],
+				"status": "Completed"
+			}
+		]
+	},
+	{
+		"name": "Eta Engineers",
+		"description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.",
+		"managerId": "678c13e1429a7403ec849701",
+		"members": ["678c13e1429a7403ec849701"],
+		"goals": [
+			{
+				"title": "Launch New Feature",
+				"description": "Develop and release the new feature for the mobile app.",
+				"targetDate": "2025-02-28T00:00:00.000Z",
+				"status": "Overdue",
+				"progress": 80
+			},
+			{
+				"title": "Improve Application Performance",
+				"description": "Increase app load speed by 30% within the next quarter.",
+				"targetDate": "2025-03-31T00:00:00.000Z",
+				"status": "Completed",
+				"progress": 13
+			}
+		],
+		"challenges": [
+			{
+				"title": "Hackathon 2025",
+				"description": "Internal hackathon to develop innovative tools.",
+				"startDate": "2025-01-20T09:00:00.000Z",
+				"endDate": "2025-01-22T18:00:00.000Z",
+				"criteria": { "creativity": 75, "execution": 68, "impact": 23 },
+				"participants": [],
+				"status": "InProgress"
+			},
+			{
+				"title": "Team Collaboration Challenge",
+				"description": "Challenge to foster better collaboration within teams.",
+				"startDate": "2025-02-01T09:00:00.000Z",
+				"endDate": "2025-02-10T18:00:00.000Z",
+				"criteria": { "creativity": 86, "execution": 78, "impact": 80 },
+				"participants": [],
+				"status": "Pending"
+			},
+			{
+				"title": "Hackathon 2025: DevOps",
+				"description": "Focus on creating automation tools for DevOps teams.",
+				"startDate": "2025-05-01T09:00:00.000Z",
+				"endDate": "2025-05-05T18:00:00.000Z",
+				"criteria": { "creativity": 25, "execution": 0, "impact": 76 },
+				"participants": [],
+				"status": "Overdue"
+			}
+		]
+	},
+	{
+		"name": "Omicron Masters",
+		"description": "Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.",
+		"managerId": "678c13e1429a7403ec849701",
+		"members": ["678c13e1429a7403ec849701", "678c13e1429a7403ec849701"],
+		"goals": [
+			{
+				"title": "Migrate to Cloud",
+				"description": "Migrate the infrastructure and applications to a cloud provider.",
+				"targetDate": "2025-06-30T00:00:00.000Z",
+				"status": "Overdue",
+				"progress": 18
+			},
+			{
+				"title": "Improve Application Performance",
+				"description": "Increase app load speed by 30% within the next quarter.",
+				"targetDate": "2025-03-31T00:00:00.000Z",
+				"status": "Pending",
+				"progress": 25
+			},
+			{
+				"title": "Launch Mobile Application",
+				"description": "Develop and launch the mobile application version of the product.",
+				"targetDate": "2025-08-01T00:00:00.000Z",
+				"status": "InProgress",
+				"progress": 100
+			}
+		],
+		"challenges": [
+			{
+				"title": "Cybersecurity Awareness Challenge",
+				"description": "Develop a new cybersecurity training module for employees.",
+				"startDate": "2025-08-01T09:00:00.000Z",
+				"endDate": "2025-08-10T18:00:00.000Z",
+				"criteria": { "creativity": 52, "execution": 45, "impact": 50 },
+				"participants": [],
+				"status": "Pending"
+			},
+			{
+				"title": "Mobile App Challenge",
+				"description": "Create a new mobile application to streamline processes.",
+				"startDate": "2025-07-01T09:00:00.000Z",
+				"endDate": "2025-07-10T18:00:00.000Z",
+				"criteria": { "creativity": 61, "execution": 37, "impact": 38 },
+				"participants": [],
+				"status": "InProgress"
+			},
+			{
+				"title": "Hackathon 2025: DevOps",
+				"description": "Focus on creating automation tools for DevOps teams.",
+				"startDate": "2025-05-01T09:00:00.000Z",
+				"endDate": "2025-05-05T18:00:00.000Z",
+				"criteria": { "creativity": 89, "execution": 66, "impact": 24 },
+				"participants": [],
+				"status": "Pending"
+			},
+			{
+				"title": "Team Collaboration Challenge",
+				"description": "Challenge to foster better collaboration within teams.",
+				"startDate": "2025-02-01T09:00:00.000Z",
+				"endDate": "2025-02-10T18:00:00.000Z",
+				"criteria": { "creativity": 9, "execution": 73, "impact": 14 },
+				"participants": [],
+				"status": "Completed"
+			}
+		]
+	},
+	{
+		"name": "Lambda Seekers",
+		"description": "Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.\n\nMorbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.\n\nFusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.",
+		"managerId": "678c13e1429a7403ec849701",
+		"members": ["678c13e1429a7403ec849701"],
+		"goals": [
+			{
+				"title": "Improve Security Features",
+				"description": "Implement multi-factor authentication and encryption for user data.",
+				"targetDate": "2025-05-15T00:00:00.000Z",
+				"status": "Pending",
+				"progress": 29
+			},
+			{
+				"title": "Complete API Refactoring",
+				"description": "Refactor the current API to improve scalability and performance.",
+				"targetDate": "2025-04-15T00:00:00.000Z",
+				"status": "Overdue",
+				"progress": 78
+			}
+		],
+		"challenges": [
+			{
+				"title": "Cybersecurity Awareness Challenge",
+				"description": "Develop a new cybersecurity training module for employees.",
+				"startDate": "2025-08-01T09:00:00.000Z",
+				"endDate": "2025-08-10T18:00:00.000Z",
+				"criteria": { "creativity": 61, "execution": 38, "impact": 8 },
+				"participants": [],
+				"status": "Pending"
+			},
+			{
+				"title": "Team Collaboration Challenge",
+				"description": "Challenge to foster better collaboration within teams.",
+				"startDate": "2025-02-01T09:00:00.000Z",
+				"endDate": "2025-02-10T18:00:00.000Z",
+				"criteria": { "creativity": 63, "execution": 30, "impact": 8 },
+				"participants": [],
+				"status": "Pending"
+			},
+			{
+				"title": "Hackathon 2025: Cloud Solutions",
+				"description": "Create cloud-based solutions to improve data storage.",
+				"startDate": "2025-09-01T09:00:00.000Z",
+				"endDate": "2025-09-05T18:00:00.000Z",
+				"criteria": { "creativity": 94, "execution": 13, "impact": 28 },
+				"participants": [],
+				"status": "Completed"
+			},
+			{
+				"title": "Productivity Boost Challenge",
+				"description": "Challenge to improve personal productivity by 20%.",
+				"startDate": "2025-03-05T09:00:00.000Z",
+				"endDate": "2025-03-12T18:00:00.000Z",
+				"criteria": { "creativity": 66, "execution": 74, "impact": 66 },
+				"participants": [],
+				"status": "InProgress"
+			},
+			{
+				"title": "Hackathon 2025",
+				"description": "Internal hackathon to develop innovative tools.",
+				"startDate": "2025-01-20T09:00:00.000Z",
+				"endDate": "2025-01-22T18:00:00.000Z",
+				"criteria": { "creativity": 32, "execution": 96, "impact": 94 },
+				"participants": [],
+				"status": "Completed"
+			}
+		]
+	},
+	{
+		"name": "Tau Collaborators",
+		"description": "Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.",
+		"managerId": "678c13e1429a7403ec849701",
+		"members": ["678c13e1429a7403ec849701"],
+		"goals": [
+			{
+				"title": "Reduce Bug Count",
+				"description": "Fix at least 90% of reported bugs in the current sprint.",
+				"targetDate": "2025-01-31T00:00:00.000Z",
+				"status": "InProgress",
+				"progress": 19
+			},
+			{
+				"title": "Complete API Refactoring",
+				"description": "Refactor the current API to improve scalability and performance.",
+				"targetDate": "2025-04-15T00:00:00.000Z",
+				"status": "InProgress",
+				"progress": 41
+			},
+			{
+				"title": "Launch Mobile Application",
+				"description": "Develop and launch the mobile application version of the product.",
+				"targetDate": "2025-08-01T00:00:00.000Z",
+				"status": "Completed",
+				"progress": 54
+			}
+		],
+		"challenges": [
+			{
+				"title": "Mobile App Challenge",
+				"description": "Create a new mobile application to streamline processes.",
+				"startDate": "2025-07-01T09:00:00.000Z",
+				"endDate": "2025-07-10T18:00:00.000Z",
+				"criteria": { "creativity": 59, "execution": 8, "impact": 38 },
+				"participants": [],
+				"status": "InProgress"
+			},
+			{
+				"title": "AI Innovation Challenge",
+				"description": "Develop an AI-based solution for customer support.",
+				"startDate": "2025-04-10T09:00:00.000Z",
+				"endDate": "2025-04-14T18:00:00.000Z",
+				"criteria": { "creativity": 5, "execution": 64, "impact": 99 },
+				"participants": [],
+				"status": "Completed"
+			},
+			{
+				"title": "Team Collaboration Challenge",
+				"description": "Challenge to foster better collaboration within teams.",
+				"startDate": "2025-02-01T09:00:00.000Z",
+				"endDate": "2025-02-10T18:00:00.000Z",
+				"criteria": { "creativity": 45, "execution": 4, "impact": 15 },
+				"participants": [],
+				"status": "InProgress"
+			},
+			{
+				"title": "Productivity Boost Challenge",
+				"description": "Challenge to improve personal productivity by 20%.",
+				"startDate": "2025-03-05T09:00:00.000Z",
+				"endDate": "2025-03-12T18:00:00.000Z",
+				"criteria": { "creativity": 21, "execution": 17, "impact": 28 },
+				"participants": [],
+				"status": "Completed"
+			},
+			{
+				"title": "Hackathon 2025: Cloud Solutions",
+				"description": "Create cloud-based solutions to improve data storage.",
+				"startDate": "2025-09-01T09:00:00.000Z",
+				"endDate": "2025-09-05T18:00:00.000Z",
+				"criteria": { "creativity": 85, "execution": 0, "impact": 65 },
+				"participants": [],
+				"status": "InProgress"
+			}
+		]
+	},
+	{
+		"name": "Mu Champions",
+		"description": "In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.\n\nSuspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.\n\nMaecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.",
+		"managerId": "678c13e1429a7403ec849701",
+		"members": [
+			"678c13e1429a7403ec849701",
+			"678c13e1429a7403ec849701",
+			"678c13e1429a7403ec849701"
+		],
+		"goals": [
+			{
+				"title": "Enhance User Experience",
+				"description": "Redesign the homepage to improve navigation and overall experience.",
+				"targetDate": "2025-04-01T00:00:00.000Z",
+				"status": "Completed",
+				"progress": 37
+			},
+			{
+				"title": "Improve Application Performance",
+				"description": "Increase app load speed by 30% within the next quarter.",
+				"targetDate": "2025-03-31T00:00:00.000Z",
+				"status": "InProgress",
+				"progress": 70
+			},
+			{
+				"title": "Complete API Refactoring",
+				"description": "Refactor the current API to improve scalability and performance.",
+				"targetDate": "2025-04-15T00:00:00.000Z",
+				"status": "InProgress",
+				"progress": 18
+			},
+			{
+				"title": "Migrate to Cloud",
+				"description": "Migrate the infrastructure and applications to a cloud provider.",
+				"targetDate": "2025-06-30T00:00:00.000Z",
+				"status": "Pending",
+				"progress": 37
+			},
+			{
+				"title": "Launch New Feature",
+				"description": "Develop and release the new feature for the mobile app.",
+				"targetDate": "2025-02-28T00:00:00.000Z",
+				"status": "Overdue",
+				"progress": 86
+			}
+		],
+		"challenges": [
+			{
+				"title": "Sustainability Challenge",
+				"description": "Design a more eco-friendly tech solution.",
+				"startDate": "2025-06-01T09:00:00.000Z",
+				"endDate": "2025-06-10T18:00:00.000Z",
+				"criteria": { "creativity": 60, "execution": 47, "impact": 95 },
+				"participants": [],
+				"status": "InProgress"
+			},
+			{
+				"title": "Productivity Boost Challenge",
+				"description": "Challenge to improve personal productivity by 20%.",
+				"startDate": "2025-03-05T09:00:00.000Z",
+				"endDate": "2025-03-12T18:00:00.000Z",
+				"criteria": { "creativity": 13, "execution": 95, "impact": 84 },
+				"participants": [],
+				"status": "Overdue"
+			},
+			{
+				"title": "Hackathon 2025: DevOps",
+				"description": "Focus on creating automation tools for DevOps teams.",
+				"startDate": "2025-05-01T09:00:00.000Z",
+				"endDate": "2025-05-05T18:00:00.000Z",
+				"criteria": { "creativity": 17, "execution": 3, "impact": 73 },
+				"participants": [],
+				"status": "InProgress"
+			},
+			{
+				"title": "Mobile App Challenge",
+				"description": "Create a new mobile application to streamline processes.",
+				"startDate": "2025-07-01T09:00:00.000Z",
+				"endDate": "2025-07-10T18:00:00.000Z",
+				"criteria": { "creativity": 3, "execution": 83, "impact": 97 },
+				"participants": [],
+				"status": "Pending"
+			}
+		]
+	},
+	{
+		"name": "Kappa Mavericks",
+		"description": "Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.",
+		"managerId": "678c13e1429a7403ec849701",
+		"members": [
+			"678c13e1429a7403ec849701",
+			"678c13e1429a7403ec849701",
+			"678c13e1429a7403ec849701"
+		],
+		"goals": [
+			{
+				"title": "Achieve 100% Code Coverage",
+				"description": "Ensure all critical backend APIs have 100% unit test coverage.",
+				"targetDate": "2025-02-15T00:00:00.000Z",
+				"status": "Overdue",
+				"progress": 27
+			},
+			{
+				"title": "Enhance User Experience",
+				"description": "Redesign the homepage to improve navigation and overall experience.",
+				"targetDate": "2025-04-01T00:00:00.000Z",
+				"status": "InProgress",
+				"progress": 89
+			},
+			{
+				"title": "Reduce Bug Count",
+				"description": "Fix at least 90% of reported bugs in the current sprint.",
+				"targetDate": "2025-01-31T00:00:00.000Z",
+				"status": "Overdue",
+				"progress": 68
+			}
+		],
+		"challenges": [
+			{
+				"title": "Cybersecurity Awareness Challenge",
+				"description": "Develop a new cybersecurity training module for employees.",
+				"startDate": "2025-08-01T09:00:00.000Z",
+				"endDate": "2025-08-10T18:00:00.000Z",
+				"criteria": { "creativity": 2, "execution": 40, "impact": 54 },
+				"participants": [],
+				"status": "InProgress"
+			},
+			{
+				"title": "Mobile App Challenge",
+				"description": "Create a new mobile application to streamline processes.",
+				"startDate": "2025-07-01T09:00:00.000Z",
+				"endDate": "2025-07-10T18:00:00.000Z",
+				"criteria": { "creativity": 21, "execution": 91, "impact": 76 },
+				"participants": [],
+				"status": "InProgress"
+			},
+			{
+				"title": "Hackathon 2025: DevOps",
+				"description": "Focus on creating automation tools for DevOps teams.",
+				"startDate": "2025-05-01T09:00:00.000Z",
+				"endDate": "2025-05-05T18:00:00.000Z",
+				"criteria": { "creativity": 32, "execution": 38, "impact": 56 },
+				"participants": [],
+				"status": "InProgress"
+			},
+			{
+				"title": "Hackathon 2025",
+				"description": "Internal hackathon to develop innovative tools.",
+				"startDate": "2025-01-20T09:00:00.000Z",
+				"endDate": "2025-01-22T18:00:00.000Z",
+				"criteria": { "creativity": 55, "execution": 87, "impact": 14 },
+				"participants": [],
+				"status": "Pending"
+			}
+		]
+	},
+	{
+		"name": "Nu Problem Solvers",
+		"description": "Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.\n\nPhasellus in felis. Donec semper sapien a libero. Nam dui.\n\nProin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.",
+		"managerId": "678c13e1429a7403ec849701",
+		"members": ["678c13e1429a7403ec849701"],
+		"goals": [
+			{
+				"title": "Enhance User Experience",
+				"description": "Redesign the homepage to improve navigation and overall experience.",
+				"targetDate": "2025-04-01T00:00:00.000Z",
+				"status": "Pending",
+				"progress": 21
+			},
+			{
+				"title": "Improve Application Performance",
+				"description": "Increase app load speed by 30% within the next quarter.",
+				"targetDate": "2025-03-31T00:00:00.000Z",
+				"status": "Pending",
+				"progress": 37
+			},
+			{
+				"title": "Automate Manual Testing",
+				"description": "Automate at least 80% of the manual testing processes.",
+				"targetDate": "2025-03-01T00:00:00.000Z",
+				"status": "Completed",
+				"progress": 5
+			},
+			{
+				"title": "Migrate to Cloud",
+				"description": "Migrate the infrastructure and applications to a cloud provider.",
+				"targetDate": "2025-06-30T00:00:00.000Z",
+				"status": "Pending",
+				"progress": 43
+			},
+			{
+				"title": "Improve Security Features",
+				"description": "Implement multi-factor authentication and encryption for user data.",
+				"targetDate": "2025-05-15T00:00:00.000Z",
+				"status": "Pending",
+				"progress": 60
+			}
+		],
+		"challenges": [
+			{
+				"title": "Sustainability Challenge",
+				"description": "Design a more eco-friendly tech solution.",
+				"startDate": "2025-06-01T09:00:00.000Z",
+				"endDate": "2025-06-10T18:00:00.000Z",
+				"criteria": { "creativity": 69, "execution": 77, "impact": 71 },
+				"participants": [],
+				"status": "Pending"
+			},
+			{
+				"title": "Hackathon 2025: Cloud Solutions",
+				"description": "Create cloud-based solutions to improve data storage.",
+				"startDate": "2025-09-01T09:00:00.000Z",
+				"endDate": "2025-09-05T18:00:00.000Z",
+				"criteria": { "creativity": 12, "execution": 62, "impact": 6 },
+				"participants": [],
+				"status": "InProgress"
+			},
+			{
+				"title": "AI Innovation Challenge",
+				"description": "Develop an AI-based solution for customer support.",
+				"startDate": "2025-04-10T09:00:00.000Z",
+				"endDate": "2025-04-14T18:00:00.000Z",
+				"criteria": { "creativity": 77, "execution": 99, "impact": 60 },
+				"participants": [],
+				"status": "Completed"
+			},
+			{
+				"title": "Mobile App Challenge",
+				"description": "Create a new mobile application to streamline processes.",
+				"startDate": "2025-07-01T09:00:00.000Z",
+				"endDate": "2025-07-10T18:00:00.000Z",
+				"criteria": { "creativity": 70, "execution": 9, "impact": 4 },
+				"participants": [],
+				"status": "Pending"
+			}
+		]
+	},
+	{
+		"name": "Gamma Techies",
+		"description": "Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.\n\nMorbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.",
+		"managerId": "678c13e1429a7403ec849701",
+		"members": ["678c13e1429a7403ec849701", "678c13e1429a7403ec849701"],
+		"goals": [
+			{
+				"title": "Improve Security Features",
+				"description": "Implement multi-factor authentication and encryption for user data.",
+				"targetDate": "2025-05-15T00:00:00.000Z",
+				"status": "Pending",
+				"progress": 96
+			},
+			{
+				"title": "Migrate to Cloud",
+				"description": "Migrate the infrastructure and applications to a cloud provider.",
+				"targetDate": "2025-06-30T00:00:00.000Z",
+				"status": "Overdue",
+				"progress": 15
+			},
+			{
+				"title": "Automate Manual Testing",
+				"description": "Automate at least 80% of the manual testing processes.",
+				"targetDate": "2025-03-01T00:00:00.000Z",
+				"status": "Completed",
+				"progress": 31
+			},
+			{
+				"title": "Enhance User Experience",
+				"description": "Redesign the homepage to improve navigation and overall experience.",
+				"targetDate": "2025-04-01T00:00:00.000Z",
+				"status": "InProgress",
+				"progress": 28
+			}
+		],
+		"challenges": [
+			{
+				"title": "Hackathon 2025: Cloud Solutions",
+				"description": "Create cloud-based solutions to improve data storage.",
+				"startDate": "2025-09-01T09:00:00.000Z",
+				"endDate": "2025-09-05T18:00:00.000Z",
+				"criteria": { "creativity": 31, "execution": 13, "impact": 52 },
+				"participants": [],
+				"status": "InProgress"
+			},
+			{
+				"title": "Sustainability Challenge",
+				"description": "Design a more eco-friendly tech solution.",
+				"startDate": "2025-06-01T09:00:00.000Z",
+				"endDate": "2025-06-10T18:00:00.000Z",
+				"criteria": {
+					"creativity": 33,
+					"execution": 50,
+					"impact": 100
+				},
+				"participants": [],
+				"status": "InProgress"
+			},
+			{
+				"title": "AI Innovation Challenge",
+				"description": "Develop an AI-based solution for customer support.",
+				"startDate": "2025-04-10T09:00:00.000Z",
+				"endDate": "2025-04-14T18:00:00.000Z",
+				"criteria": { "creativity": 51, "execution": 52, "impact": 6 },
+				"participants": [],
+				"status": "InProgress"
+			}
+		]
+	},
+	{
+		"name": "Gamma Techies",
+		"description": "Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.\n\nSed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.\n\nPellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.",
+		"managerId": "678c13e1429a7403ec849701",
+		"members": ["678c13e1429a7403ec849701"],
+		"goals": [
+			{
+				"title": "Complete API Refactoring",
+				"description": "Refactor the current API to improve scalability and performance.",
+				"targetDate": "2025-04-15T00:00:00.000Z",
+				"status": "InProgress",
+				"progress": 3
+			},
+			{
+				"title": "Reduce Bug Count",
+				"description": "Fix at least 90% of reported bugs in the current sprint.",
+				"targetDate": "2025-01-31T00:00:00.000Z",
+				"status": "Completed",
+				"progress": 5
+			},
+			{
+				"title": "Automate Manual Testing",
+				"description": "Automate at least 80% of the manual testing processes.",
+				"targetDate": "2025-03-01T00:00:00.000Z",
+				"status": "Overdue",
+				"progress": 81
+			},
+			{
+				"title": "Improve Application Performance",
+				"description": "Increase app load speed by 30% within the next quarter.",
+				"targetDate": "2025-03-31T00:00:00.000Z",
+				"status": "Overdue",
+				"progress": 81
+			},
+			{
+				"title": "Launch New Feature",
+				"description": "Develop and release the new feature for the mobile app.",
+				"targetDate": "2025-02-28T00:00:00.000Z",
+				"status": "InProgress",
+				"progress": 91
+			}
+		],
+		"challenges": [
+			{
+				"title": "Hackathon 2025: Cloud Solutions",
+				"description": "Create cloud-based solutions to improve data storage.",
+				"startDate": "2025-09-01T09:00:00.000Z",
+				"endDate": "2025-09-05T18:00:00.000Z",
+				"criteria": { "creativity": 71, "execution": 38, "impact": 81 },
+				"participants": [],
+				"status": "Completed"
+			},
+			{
+				"title": "Cybersecurity Awareness Challenge",
+				"description": "Develop a new cybersecurity training module for employees.",
+				"startDate": "2025-08-01T09:00:00.000Z",
+				"endDate": "2025-08-10T18:00:00.000Z",
+				"criteria": { "creativity": 13, "execution": 25, "impact": 96 },
+				"participants": [],
+				"status": "InProgress"
+			},
+			{
+				"title": "Hackathon 2025: DevOps",
+				"description": "Focus on creating automation tools for DevOps teams.",
+				"startDate": "2025-05-01T09:00:00.000Z",
+				"endDate": "2025-05-05T18:00:00.000Z",
+				"criteria": { "creativity": 47, "execution": 39, "impact": 55 },
+				"participants": [],
+				"status": "Pending"
+			},
+			{
+				"title": "Hackathon 2025",
+				"description": "Internal hackathon to develop innovative tools.",
+				"startDate": "2025-01-20T09:00:00.000Z",
+				"endDate": "2025-01-22T18:00:00.000Z",
+				"criteria": { "creativity": 63, "execution": 79, "impact": 69 },
+				"participants": [],
+				"status": "InProgress"
+			}
+		]
+	},
+	{
+		"name": "Nu Problem Solvers",
+		"description": "Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.",
+		"managerId": "678c13e1429a7403ec849701",
+		"members": [
+			"678c13e1429a7403ec849701",
+			"678c13e1429a7403ec849701",
+			"678c13e1429a7403ec849701"
+		],
+		"goals": [
+			{
+				"title": "Reduce Bug Count",
+				"description": "Fix at least 90% of reported bugs in the current sprint.",
+				"targetDate": "2025-01-31T00:00:00.000Z",
+				"status": "Pending",
+				"progress": 39
+			},
+			{
+				"title": "Launch Mobile Application",
+				"description": "Develop and launch the mobile application version of the product.",
+				"targetDate": "2025-08-01T00:00:00.000Z",
+				"status": "Pending",
+				"progress": 6
+			}
+		],
+		"challenges": [
+			{
+				"title": "Hackathon 2025: Cloud Solutions",
+				"description": "Create cloud-based solutions to improve data storage.",
+				"startDate": "2025-09-01T09:00:00.000Z",
+				"endDate": "2025-09-05T18:00:00.000Z",
+				"criteria": { "creativity": 86, "execution": 71, "impact": 8 },
+				"participants": [],
+				"status": "Overdue"
+			},
+			{
+				"title": "Team Collaboration Challenge",
+				"description": "Challenge to foster better collaboration within teams.",
+				"startDate": "2025-02-01T09:00:00.000Z",
+				"endDate": "2025-02-10T18:00:00.000Z",
+				"criteria": { "creativity": 3, "execution": 29, "impact": 40 },
+				"participants": [],
+				"status": "Completed"
+			}
+		]
+	},
+	{
+		"name": "Mu Champions",
+		"description": "Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.",
+		"managerId": "678c13e1429a7403ec849701",
+		"members": ["678c13e1429a7403ec849701"],
+		"goals": [
+			{
+				"title": "Launch Mobile Application",
+				"description": "Develop and launch the mobile application version of the product.",
+				"targetDate": "2025-08-01T00:00:00.000Z",
+				"status": "Completed",
+				"progress": 43
+			},
+			{
+				"title": "Achieve 100% Code Coverage",
+				"description": "Ensure all critical backend APIs have 100% unit test coverage.",
+				"targetDate": "2025-02-15T00:00:00.000Z",
+				"status": "InProgress",
+				"progress": 79
+			},
+			{
+				"title": "Complete API Refactoring",
+				"description": "Refactor the current API to improve scalability and performance.",
+				"targetDate": "2025-04-15T00:00:00.000Z",
+				"status": "Completed",
+				"progress": 7
+			},
+			{
+				"title": "Automate Manual Testing",
+				"description": "Automate at least 80% of the manual testing processes.",
+				"targetDate": "2025-03-01T00:00:00.000Z",
+				"status": "InProgress",
+				"progress": 50
+			}
+		],
+		"challenges": [
+			{
+				"title": "Hackathon 2025",
+				"description": "Internal hackathon to develop innovative tools.",
+				"startDate": "2025-01-20T09:00:00.000Z",
+				"endDate": "2025-01-22T18:00:00.000Z",
+				"criteria": { "creativity": 72, "execution": 90, "impact": 95 },
+				"participants": [],
+				"status": "Pending"
+			},
+			{
+				"title": "Team Collaboration Challenge",
+				"description": "Challenge to foster better collaboration within teams.",
+				"startDate": "2025-02-01T09:00:00.000Z",
+				"endDate": "2025-02-10T18:00:00.000Z",
+				"criteria": { "creativity": 4, "execution": 85, "impact": 66 },
+				"participants": [],
+				"status": "Overdue"
+			},
+			{
+				"title": "Sustainability Challenge",
+				"description": "Design a more eco-friendly tech solution.",
+				"startDate": "2025-06-01T09:00:00.000Z",
+				"endDate": "2025-06-10T18:00:00.000Z",
+				"criteria": { "creativity": 94, "execution": 50, "impact": 35 },
+				"participants": [],
+				"status": "Completed"
+			},
+			{
+				"title": "Productivity Boost Challenge",
+				"description": "Challenge to improve personal productivity by 20%.",
+				"startDate": "2025-03-05T09:00:00.000Z",
+				"endDate": "2025-03-12T18:00:00.000Z",
+				"criteria": { "creativity": 40, "execution": 83, "impact": 76 },
+				"participants": [],
+				"status": "Completed"
+			}
+		]
+	},
+	{
+		"name": "Mu Champions",
+		"description": "Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.",
+		"managerId": "678c13e1429a7403ec849701",
+		"members": ["678c13e1429a7403ec849701"],
+		"goals": [
+			{
+				"title": "Improve Application Performance",
+				"description": "Increase app load speed by 30% within the next quarter.",
+				"targetDate": "2025-03-31T00:00:00.000Z",
+				"status": "Completed",
+				"progress": 53
+			},
+			{
+				"title": "Migrate to Cloud",
+				"description": "Migrate the infrastructure and applications to a cloud provider.",
+				"targetDate": "2025-06-30T00:00:00.000Z",
+				"status": "Completed",
+				"progress": 29
+			},
+			{
+				"title": "Complete API Refactoring",
+				"description": "Refactor the current API to improve scalability and performance.",
+				"targetDate": "2025-04-15T00:00:00.000Z",
+				"status": "InProgress",
+				"progress": 69
+			}
+		],
+		"challenges": [
+			{
+				"title": "Hackathon 2025: Cloud Solutions",
+				"description": "Create cloud-based solutions to improve data storage.",
+				"startDate": "2025-09-01T09:00:00.000Z",
+				"endDate": "2025-09-05T18:00:00.000Z",
+				"criteria": { "creativity": 15, "execution": 69, "impact": 62 },
+				"participants": [],
+				"status": "Pending"
+			},
+			{
+				"title": "Hackathon 2025: DevOps",
+				"description": "Focus on creating automation tools for DevOps teams.",
+				"startDate": "2025-05-01T09:00:00.000Z",
+				"endDate": "2025-05-05T18:00:00.000Z",
+				"criteria": { "creativity": 82, "execution": 30, "impact": 17 },
+				"participants": [],
+				"status": "Pending"
+			}
+		]
+	},
+	{
+		"name": "Eta Engineers",
+		"description": "Phasellus in felis. Donec semper sapien a libero. Nam dui.\n\nProin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.\n\nInteger ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.",
+		"managerId": "678c13e1429a7403ec849701",
+		"members": ["678c13e1429a7403ec849701"],
+		"goals": [
+			{
+				"title": "Launch New Feature",
+				"description": "Develop and release the new feature for the mobile app.",
+				"targetDate": "2025-02-28T00:00:00.000Z",
+				"status": "InProgress",
+				"progress": 5
+			},
+			{
+				"title": "Improve Security Features",
+				"description": "Implement multi-factor authentication and encryption for user data.",
+				"targetDate": "2025-05-15T00:00:00.000Z",
+				"status": "Overdue",
+				"progress": 65
+			},
+			{
+				"title": "Migrate to Cloud",
+				"description": "Migrate the infrastructure and applications to a cloud provider.",
+				"targetDate": "2025-06-30T00:00:00.000Z",
+				"status": "Completed",
+				"progress": 68
+			}
+		],
+		"challenges": [
+			{
+				"title": "Hackathon 2025: Cloud Solutions",
+				"description": "Create cloud-based solutions to improve data storage.",
+				"startDate": "2025-09-01T09:00:00.000Z",
+				"endDate": "2025-09-05T18:00:00.000Z",
+				"criteria": { "creativity": 93, "execution": 78, "impact": 59 },
+				"participants": [],
+				"status": "InProgress"
+			},
+			{
+				"title": "Hackathon 2025",
+				"description": "Internal hackathon to develop innovative tools.",
+				"startDate": "2025-01-20T09:00:00.000Z",
+				"endDate": "2025-01-22T18:00:00.000Z",
+				"criteria": { "creativity": 20, "execution": 0, "impact": 68 },
+				"participants": [],
+				"status": "Completed"
+			},
+			{
+				"title": "Sustainability Challenge",
+				"description": "Design a more eco-friendly tech solution.",
+				"startDate": "2025-06-01T09:00:00.000Z",
+				"endDate": "2025-06-10T18:00:00.000Z",
+				"criteria": { "creativity": 64, "execution": 63, "impact": 39 },
+				"participants": [],
+				"status": "Pending"
+			},
+			{
+				"title": "Productivity Boost Challenge",
+				"description": "Challenge to improve personal productivity by 20%.",
+				"startDate": "2025-03-05T09:00:00.000Z",
+				"endDate": "2025-03-12T18:00:00.000Z",
+				"criteria": { "creativity": 25, "execution": 11, "impact": 3 },
+				"participants": [],
+				"status": "Overdue"
+			},
+			{
+				"title": "AI Innovation Challenge",
+				"description": "Develop an AI-based solution for customer support.",
+				"startDate": "2025-04-10T09:00:00.000Z",
+				"endDate": "2025-04-14T18:00:00.000Z",
+				"criteria": { "creativity": 79, "execution": 85, "impact": 38 },
+				"participants": [],
+				"status": "Completed"
+			}
+		]
+	},
+	{
+		"name": "Tau Collaborators",
+		"description": "Phasellus in felis. Donec semper sapien a libero. Nam dui.",
+		"managerId": "678c13e1429a7403ec849701",
+		"members": ["678c13e1429a7403ec849701", "678c13e1429a7403ec849701"],
+		"goals": [
+			{
+				"title": "Reduce Bug Count",
+				"description": "Fix at least 90% of reported bugs in the current sprint.",
+				"targetDate": "2025-01-31T00:00:00.000Z",
+				"status": "Overdue",
+				"progress": 28
+			},
+			{
+				"title": "Improve Application Performance",
+				"description": "Increase app load speed by 30% within the next quarter.",
+				"targetDate": "2025-03-31T00:00:00.000Z",
+				"status": "Completed",
+				"progress": 74
+			},
+			{
+				"title": "Migrate to Cloud",
+				"description": "Migrate the infrastructure and applications to a cloud provider.",
+				"targetDate": "2025-06-30T00:00:00.000Z",
+				"status": "Overdue",
+				"progress": 24
+			},
+			{
+				"title": "Achieve 100% Code Coverage",
+				"description": "Ensure all critical backend APIs have 100% unit test coverage.",
+				"targetDate": "2025-02-15T00:00:00.000Z",
+				"status": "Pending",
+				"progress": 46
+			}
+		],
+		"challenges": [
+			{
+				"title": "Team Collaboration Challenge",
+				"description": "Challenge to foster better collaboration within teams.",
+				"startDate": "2025-02-01T09:00:00.000Z",
+				"endDate": "2025-02-10T18:00:00.000Z",
+				"criteria": { "creativity": 34, "execution": 12, "impact": 73 },
+				"participants": [],
+				"status": "Overdue"
+			},
+			{
+				"title": "AI Innovation Challenge",
+				"description": "Develop an AI-based solution for customer support.",
+				"startDate": "2025-04-10T09:00:00.000Z",
+				"endDate": "2025-04-14T18:00:00.000Z",
+				"criteria": { "creativity": 18, "execution": 7, "impact": 98 },
+				"participants": [],
+				"status": "Completed"
+			},
+			{
+				"title": "Sustainability Challenge",
+				"description": "Design a more eco-friendly tech solution.",
+				"startDate": "2025-06-01T09:00:00.000Z",
+				"endDate": "2025-06-10T18:00:00.000Z",
+				"criteria": { "creativity": 12, "execution": 88, "impact": 56 },
+				"participants": [],
+				"status": "Completed"
+			},
+			{
+				"title": "Mobile App Challenge",
+				"description": "Create a new mobile application to streamline processes.",
+				"startDate": "2025-07-01T09:00:00.000Z",
+				"endDate": "2025-07-10T18:00:00.000Z",
+				"criteria": { "creativity": 56, "execution": 64, "impact": 3 },
+				"participants": [],
+				"status": "Overdue"
+			},
+			{
+				"title": "Hackathon 2025",
+				"description": "Internal hackathon to develop innovative tools.",
+				"startDate": "2025-01-20T09:00:00.000Z",
+				"endDate": "2025-01-22T18:00:00.000Z",
+				"criteria": { "creativity": 97, "execution": 85, "impact": 62 },
+				"participants": [],
+				"status": "Overdue"
+			}
+		]
+	},
+	{
+		"name": "Omicron Masters",
+		"description": "Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.",
+		"managerId": "678c13e1429a7403ec849701",
+		"members": [
+			"678c13e1429a7403ec849701",
+			"678c13e1429a7403ec849701",
+			"678c13e1429a7403ec849701"
+		],
+		"goals": [
+			{
+				"title": "Improve Security Features",
+				"description": "Implement multi-factor authentication and encryption for user data.",
+				"targetDate": "2025-05-15T00:00:00.000Z",
+				"status": "Completed",
+				"progress": 21
+			},
+			{
+				"title": "Launch Mobile Application",
+				"description": "Develop and launch the mobile application version of the product.",
+				"targetDate": "2025-08-01T00:00:00.000Z",
+				"status": "Overdue",
+				"progress": 83
+			},
+			{
+				"title": "Complete API Refactoring",
+				"description": "Refactor the current API to improve scalability and performance.",
+				"targetDate": "2025-04-15T00:00:00.000Z",
+				"status": "Completed",
+				"progress": 14
+			}
+		],
+		"challenges": [
+			{
+				"title": "Productivity Boost Challenge",
+				"description": "Challenge to improve personal productivity by 20%.",
+				"startDate": "2025-03-05T09:00:00.000Z",
+				"endDate": "2025-03-12T18:00:00.000Z",
+				"criteria": { "creativity": 34, "execution": 2, "impact": 59 },
+				"participants": [],
+				"status": "Pending"
+			},
+			{
+				"title": "Team Collaboration Challenge",
+				"description": "Challenge to foster better collaboration within teams.",
+				"startDate": "2025-02-01T09:00:00.000Z",
+				"endDate": "2025-02-10T18:00:00.000Z",
+				"criteria": { "creativity": 54, "execution": 31, "impact": 98 },
+				"participants": [],
+				"status": "Overdue"
+			}
+		]
+	},
+	{
+		"name": "Delta Builders",
+		"description": "Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.\n\nPhasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.",
+		"managerId": "678c13e1429a7403ec849701",
+		"members": ["678c13e1429a7403ec849701", "678c13e1429a7403ec849701"],
+		"goals": [
+			{
+				"title": "Improve Security Features",
+				"description": "Implement multi-factor authentication and encryption for user data.",
+				"targetDate": "2025-05-15T00:00:00.000Z",
+				"status": "InProgress",
+				"progress": 17
+			},
+			{
+				"title": "Complete API Refactoring",
+				"description": "Refactor the current API to improve scalability and performance.",
+				"targetDate": "2025-04-15T00:00:00.000Z",
+				"status": "Completed",
+				"progress": 84
+			}
+		],
+		"challenges": [
+			{
+				"title": "Hackathon 2025",
+				"description": "Internal hackathon to develop innovative tools.",
+				"startDate": "2025-01-20T09:00:00.000Z",
+				"endDate": "2025-01-22T18:00:00.000Z",
+				"criteria": { "creativity": 28, "execution": 50, "impact": 56 },
+				"participants": [],
+				"status": "Overdue"
+			},
+			{
+				"title": "Sustainability Challenge",
+				"description": "Design a more eco-friendly tech solution.",
+				"startDate": "2025-06-01T09:00:00.000Z",
+				"endDate": "2025-06-10T18:00:00.000Z",
+				"criteria": { "creativity": 67, "execution": 39, "impact": 68 },
+				"participants": [],
+				"status": "Completed"
+			},
+			{
+				"title": "Hackathon 2025: Cloud Solutions",
+				"description": "Create cloud-based solutions to improve data storage.",
+				"startDate": "2025-09-01T09:00:00.000Z",
+				"endDate": "2025-09-05T18:00:00.000Z",
+				"criteria": { "creativity": 54, "execution": 40, "impact": 77 },
+				"participants": [],
+				"status": "Completed"
+			},
+			{
+				"title": "Mobile App Challenge",
+				"description": "Create a new mobile application to streamline processes.",
+				"startDate": "2025-07-01T09:00:00.000Z",
+				"endDate": "2025-07-10T18:00:00.000Z",
+				"criteria": { "creativity": 46, "execution": 88, "impact": 32 },
+				"participants": [],
+				"status": "Pending"
+			}
+		]
+	},
+	{
+		"name": "Nu Problem Solvers",
+		"description": "Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.",
+		"managerId": "678c13e1429a7403ec849701",
+		"members": ["678c13e1429a7403ec849701", "678c13e1429a7403ec849701"],
+		"goals": [
+			{
+				"title": "Complete API Refactoring",
+				"description": "Refactor the current API to improve scalability and performance.",
+				"targetDate": "2025-04-15T00:00:00.000Z",
+				"status": "Completed",
+				"progress": 47
+			},
+			{
+				"title": "Achieve 100% Code Coverage",
+				"description": "Ensure all critical backend APIs have 100% unit test coverage.",
+				"targetDate": "2025-02-15T00:00:00.000Z",
+				"status": "Pending",
+				"progress": 15
+			},
+			{
+				"title": "Improve Application Performance",
+				"description": "Increase app load speed by 30% within the next quarter.",
+				"targetDate": "2025-03-31T00:00:00.000Z",
+				"status": "InProgress",
+				"progress": 97
+			},
+			{
+				"title": "Launch Mobile Application",
+				"description": "Develop and launch the mobile application version of the product.",
+				"targetDate": "2025-08-01T00:00:00.000Z",
+				"status": "Pending",
+				"progress": 71
+			}
+		],
+		"challenges": [
+			{
+				"title": "Sustainability Challenge",
+				"description": "Design a more eco-friendly tech solution.",
+				"startDate": "2025-06-01T09:00:00.000Z",
+				"endDate": "2025-06-10T18:00:00.000Z",
+				"criteria": { "creativity": 9, "execution": 24, "impact": 47 },
+				"participants": [],
+				"status": "Pending"
+			},
+			{
+				"title": "Cybersecurity Awareness Challenge",
+				"description": "Develop a new cybersecurity training module for employees.",
+				"startDate": "2025-08-01T09:00:00.000Z",
+				"endDate": "2025-08-10T18:00:00.000Z",
+				"criteria": { "creativity": 87, "execution": 56, "impact": 25 },
+				"participants": [],
+				"status": "InProgress"
+			},
+			{
+				"title": "Team Collaboration Challenge",
+				"description": "Challenge to foster better collaboration within teams.",
+				"startDate": "2025-02-01T09:00:00.000Z",
+				"endDate": "2025-02-10T18:00:00.000Z",
+				"criteria": { "creativity": 1, "execution": 11, "impact": 91 },
+				"participants": [],
+				"status": "InProgress"
+			},
+			{
+				"title": "Productivity Boost Challenge",
+				"description": "Challenge to improve personal productivity by 20%.",
+				"startDate": "2025-03-05T09:00:00.000Z",
+				"endDate": "2025-03-12T18:00:00.000Z",
+				"criteria": { "creativity": 95, "execution": 4, "impact": 11 },
+				"participants": [],
+				"status": "Overdue"
+			}
+		]
+	},
+	{
+		"name": "Rho Architects",
+		"description": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.\n\nEtiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.",
+		"managerId": "678c13e1429a7403ec849701",
+		"members": ["678c13e1429a7403ec849701", "678c13e1429a7403ec849701"],
+		"goals": [
+			{
+				"title": "Migrate to Cloud",
+				"description": "Migrate the infrastructure and applications to a cloud provider.",
+				"targetDate": "2025-06-30T00:00:00.000Z",
+				"status": "Overdue",
+				"progress": 70
+			},
+			{
+				"title": "Achieve 100% Code Coverage",
+				"description": "Ensure all critical backend APIs have 100% unit test coverage.",
+				"targetDate": "2025-02-15T00:00:00.000Z",
+				"status": "Overdue",
+				"progress": 29
+			},
+			{
+				"title": "Improve Application Performance",
+				"description": "Increase app load speed by 30% within the next quarter.",
+				"targetDate": "2025-03-31T00:00:00.000Z",
+				"status": "Pending",
+				"progress": 25
+			},
+			{
+				"title": "Automate Manual Testing",
+				"description": "Automate at least 80% of the manual testing processes.",
+				"targetDate": "2025-03-01T00:00:00.000Z",
+				"status": "Overdue",
+				"progress": 9
+			}
+		],
+		"challenges": [
+			{
+				"title": "Mobile App Challenge",
+				"description": "Create a new mobile application to streamline processes.",
+				"startDate": "2025-07-01T09:00:00.000Z",
+				"endDate": "2025-07-10T18:00:00.000Z",
+				"criteria": { "creativity": 54, "execution": 52, "impact": 18 },
+				"participants": [],
+				"status": "Pending"
+			},
+			{
+				"title": "Cybersecurity Awareness Challenge",
+				"description": "Develop a new cybersecurity training module for employees.",
+				"startDate": "2025-08-01T09:00:00.000Z",
+				"endDate": "2025-08-10T18:00:00.000Z",
+				"criteria": { "creativity": 76, "execution": 97, "impact": 98 },
+				"participants": [],
+				"status": "InProgress"
+			},
+			{
+				"title": "Productivity Boost Challenge",
+				"description": "Challenge to improve personal productivity by 20%.",
+				"startDate": "2025-03-05T09:00:00.000Z",
+				"endDate": "2025-03-12T18:00:00.000Z",
+				"criteria": { "creativity": 38, "execution": 11, "impact": 43 },
+				"participants": [],
+				"status": "InProgress"
+			},
+			{
+				"title": "Hackathon 2025: DevOps",
+				"description": "Focus on creating automation tools for DevOps teams.",
+				"startDate": "2025-05-01T09:00:00.000Z",
+				"endDate": "2025-05-05T18:00:00.000Z",
+				"criteria": { "creativity": 52, "execution": 59, "impact": 96 },
+				"participants": [],
+				"status": "Overdue"
+			}
+		]
+	},
+	{
+		"name": "Gamma Techies",
+		"description": "In congue. Etiam justo. Etiam pretium iaculis justo.",
+		"managerId": "678c13e1429a7403ec849701",
+		"members": ["678c13e1429a7403ec849701"],
+		"goals": [
+			{
+				"title": "Improve Application Performance",
+				"description": "Increase app load speed by 30% within the next quarter.",
+				"targetDate": "2025-03-31T00:00:00.000Z",
+				"status": "Pending",
+				"progress": 9
+			},
+			{
+				"title": "Launch New Feature",
+				"description": "Develop and release the new feature for the mobile app.",
+				"targetDate": "2025-02-28T00:00:00.000Z",
+				"status": "InProgress",
+				"progress": 53
+			},
+			{
+				"title": "Enhance User Experience",
+				"description": "Redesign the homepage to improve navigation and overall experience.",
+				"targetDate": "2025-04-01T00:00:00.000Z",
+				"status": "Completed",
+				"progress": 40
+			},
+			{
+				"title": "Achieve 100% Code Coverage",
+				"description": "Ensure all critical backend APIs have 100% unit test coverage.",
+				"targetDate": "2025-02-15T00:00:00.000Z",
+				"status": "Completed",
+				"progress": 4
+			},
+			{
+				"title": "Launch Mobile Application",
+				"description": "Develop and launch the mobile application version of the product.",
+				"targetDate": "2025-08-01T00:00:00.000Z",
+				"status": "Pending",
+				"progress": 44
+			}
+		],
+		"challenges": [
+			{
+				"title": "Hackathon 2025",
+				"description": "Internal hackathon to develop innovative tools.",
+				"startDate": "2025-01-20T09:00:00.000Z",
+				"endDate": "2025-01-22T18:00:00.000Z",
+				"criteria": { "creativity": 80, "execution": 23, "impact": 48 },
+				"participants": [],
+				"status": "Pending"
+			},
+			{
+				"title": "Hackathon 2025: Cloud Solutions",
+				"description": "Create cloud-based solutions to improve data storage.",
+				"startDate": "2025-09-01T09:00:00.000Z",
+				"endDate": "2025-09-05T18:00:00.000Z",
+				"criteria": { "creativity": 50, "execution": 26, "impact": 79 },
+				"participants": [],
+				"status": "InProgress"
+			}
+		]
+	},
+	{
+		"name": "Tau Collaborators",
+		"description": "Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.\n\nDonec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.\n\nDuis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.",
+		"managerId": "678c13e1429a7403ec849701",
+		"members": [
+			"678c13e1429a7403ec849701",
+			"678c13e1429a7403ec849701",
+			"678c13e1429a7403ec849701"
+		],
+		"goals": [
+			{
+				"title": "Improve Security Features",
+				"description": "Implement multi-factor authentication and encryption for user data.",
+				"targetDate": "2025-05-15T00:00:00.000Z",
+				"status": "Pending",
+				"progress": 56
+			},
+			{
+				"title": "Reduce Bug Count",
+				"description": "Fix at least 90% of reported bugs in the current sprint.",
+				"targetDate": "2025-01-31T00:00:00.000Z",
+				"status": "Overdue",
+				"progress": 66
+			}
+		],
+		"challenges": [
+			{
+				"title": "Hackathon 2025",
+				"description": "Internal hackathon to develop innovative tools.",
+				"startDate": "2025-01-20T09:00:00.000Z",
+				"endDate": "2025-01-22T18:00:00.000Z",
+				"criteria": { "creativity": 7, "execution": 18, "impact": 22 },
+				"participants": [],
+				"status": "Completed"
+			},
+			{
+				"title": "Hackathon 2025: Cloud Solutions",
+				"description": "Create cloud-based solutions to improve data storage.",
+				"startDate": "2025-09-01T09:00:00.000Z",
+				"endDate": "2025-09-05T18:00:00.000Z",
+				"criteria": { "creativity": 82, "execution": 82, "impact": 49 },
+				"participants": [],
+				"status": "InProgress"
+			},
+			{
+				"title": "Cybersecurity Awareness Challenge",
+				"description": "Develop a new cybersecurity training module for employees.",
+				"startDate": "2025-08-01T09:00:00.000Z",
+				"endDate": "2025-08-10T18:00:00.000Z",
+				"criteria": { "creativity": 66, "execution": 54, "impact": 73 },
+				"participants": [],
+				"status": "Overdue"
+			},
+			{
+				"title": "Team Collaboration Challenge",
+				"description": "Challenge to foster better collaboration within teams.",
+				"startDate": "2025-02-01T09:00:00.000Z",
+				"endDate": "2025-02-10T18:00:00.000Z",
+				"criteria": { "creativity": 17, "execution": 47, "impact": 82 },
+				"participants": [],
+				"status": "InProgress"
+			},
+			{
+				"title": "Mobile App Challenge",
+				"description": "Create a new mobile application to streamline processes.",
+				"startDate": "2025-07-01T09:00:00.000Z",
+				"endDate": "2025-07-10T18:00:00.000Z",
+				"criteria": { "creativity": 67, "execution": 56, "impact": 36 },
+				"participants": [],
+				"status": "Completed"
+			}
+		]
+	},
+	{
+		"name": "Omicron Masters",
+		"description": "Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.\n\nPhasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.\n\nProin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.",
+		"managerId": "678c13e1429a7403ec849701",
+		"members": ["678c13e1429a7403ec849701"],
+		"goals": [
+			{
+				"title": "Launch New Feature",
+				"description": "Develop and release the new feature for the mobile app.",
+				"targetDate": "2025-02-28T00:00:00.000Z",
+				"status": "Overdue",
+				"progress": 7
+			},
+			{
+				"title": "Achieve 100% Code Coverage",
+				"description": "Ensure all critical backend APIs have 100% unit test coverage.",
+				"targetDate": "2025-02-15T00:00:00.000Z",
+				"status": "Pending",
+				"progress": 99
+			},
+			{
+				"title": "Complete API Refactoring",
+				"description": "Refactor the current API to improve scalability and performance.",
+				"targetDate": "2025-04-15T00:00:00.000Z",
+				"status": "Overdue",
+				"progress": 10
+			}
+		],
+		"challenges": [
+			{
+				"title": "Hackathon 2025: Cloud Solutions",
+				"description": "Create cloud-based solutions to improve data storage.",
+				"startDate": "2025-09-01T09:00:00.000Z",
+				"endDate": "2025-09-05T18:00:00.000Z",
+				"criteria": { "creativity": 77, "execution": 95, "impact": 30 },
+				"participants": [],
+				"status": "Overdue"
+			},
+			{
+				"title": "Productivity Boost Challenge",
+				"description": "Challenge to improve personal productivity by 20%.",
+				"startDate": "2025-03-05T09:00:00.000Z",
+				"endDate": "2025-03-12T18:00:00.000Z",
+				"criteria": {
+					"creativity": 87,
+					"execution": 100,
+					"impact": 36
+				},
+				"participants": [],
+				"status": "Pending"
+			},
+			{
+				"title": "Hackathon 2025",
+				"description": "Internal hackathon to develop innovative tools.",
+				"startDate": "2025-01-20T09:00:00.000Z",
+				"endDate": "2025-01-22T18:00:00.000Z",
+				"criteria": { "creativity": 15, "execution": 30, "impact": 1 },
+				"participants": [],
+				"status": "InProgress"
+			},
+			{
+				"title": "Hackathon 2025: DevOps",
+				"description": "Focus on creating automation tools for DevOps teams.",
+				"startDate": "2025-05-01T09:00:00.000Z",
+				"endDate": "2025-05-05T18:00:00.000Z",
+				"criteria": { "creativity": 60, "execution": 93, "impact": 9 },
+				"participants": [],
+				"status": "Overdue"
+			},
+			{
+				"title": "Cybersecurity Awareness Challenge",
+				"description": "Develop a new cybersecurity training module for employees.",
+				"startDate": "2025-08-01T09:00:00.000Z",
+				"endDate": "2025-08-10T18:00:00.000Z",
+				"criteria": {
+					"creativity": 100,
+					"execution": 88,
+					"impact": 93
+				},
+				"participants": [],
+				"status": "Pending"
+			}
+		]
+	},
+	{
+		"name": "Pi Strategists",
+		"description": "Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.\n\nIn hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.",
+		"managerId": "678c13e1429a7403ec849701",
+		"members": [
+			"678c13e1429a7403ec849701",
+			"678c13e1429a7403ec849701",
+			"678c13e1429a7403ec849701"
+		],
+		"goals": [
+			{
+				"title": "Achieve 100% Code Coverage",
+				"description": "Ensure all critical backend APIs have 100% unit test coverage.",
+				"targetDate": "2025-02-15T00:00:00.000Z",
+				"status": "InProgress",
+				"progress": 17
+			},
+			{
+				"title": "Improve Application Performance",
+				"description": "Increase app load speed by 30% within the next quarter.",
+				"targetDate": "2025-03-31T00:00:00.000Z",
+				"status": "Overdue",
+				"progress": 96
+			}
+		],
+		"challenges": [
+			{
+				"title": "Team Collaboration Challenge",
+				"description": "Challenge to foster better collaboration within teams.",
+				"startDate": "2025-02-01T09:00:00.000Z",
+				"endDate": "2025-02-10T18:00:00.000Z",
+				"criteria": { "creativity": 89, "execution": 17, "impact": 58 },
+				"participants": [],
+				"status": "Pending"
+			},
+			{
+				"title": "Hackathon 2025",
+				"description": "Internal hackathon to develop innovative tools.",
+				"startDate": "2025-01-20T09:00:00.000Z",
+				"endDate": "2025-01-22T18:00:00.000Z",
+				"criteria": { "creativity": 78, "execution": 71, "impact": 54 },
+				"participants": [],
+				"status": "Completed"
+			},
+			{
+				"title": "Productivity Boost Challenge",
+				"description": "Challenge to improve personal productivity by 20%.",
+				"startDate": "2025-03-05T09:00:00.000Z",
+				"endDate": "2025-03-12T18:00:00.000Z",
+				"criteria": { "creativity": 12, "execution": 17, "impact": 26 },
+				"participants": [],
+				"status": "Pending"
+			},
+			{
+				"title": "Hackathon 2025: Cloud Solutions",
+				"description": "Create cloud-based solutions to improve data storage.",
+				"startDate": "2025-09-01T09:00:00.000Z",
+				"endDate": "2025-09-05T18:00:00.000Z",
+				"criteria": { "creativity": 92, "execution": 71, "impact": 47 },
+				"participants": [],
+				"status": "Pending"
+			}
+		]
+	},
+	{
+		"name": "Omicron Masters",
+		"description": "Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.\n\nFusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.\n\nSed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.",
+		"managerId": "678c13e1429a7403ec849701",
+		"members": [
+			"678c13e1429a7403ec849701",
+			"678c13e1429a7403ec849701",
+			"678c13e1429a7403ec849701"
+		],
+		"goals": [
+			{
+				"title": "Improve Security Features",
+				"description": "Implement multi-factor authentication and encryption for user data.",
+				"targetDate": "2025-05-15T00:00:00.000Z",
+				"status": "Pending",
+				"progress": 99
+			},
+			{
+				"title": "Enhance User Experience",
+				"description": "Redesign the homepage to improve navigation and overall experience.",
+				"targetDate": "2025-04-01T00:00:00.000Z",
+				"status": "Pending",
+				"progress": 53
+			}
+		],
+		"challenges": [
+			{
+				"title": "Mobile App Challenge",
+				"description": "Create a new mobile application to streamline processes.",
+				"startDate": "2025-07-01T09:00:00.000Z",
+				"endDate": "2025-07-10T18:00:00.000Z",
+				"criteria": { "creativity": 8, "execution": 23, "impact": 69 },
+				"participants": [],
+				"status": "Pending"
+			},
+			{
+				"title": "Hackathon 2025: DevOps",
+				"description": "Focus on creating automation tools for DevOps teams.",
+				"startDate": "2025-05-01T09:00:00.000Z",
+				"endDate": "2025-05-05T18:00:00.000Z",
+				"criteria": { "creativity": 18, "execution": 89, "impact": 6 },
+				"participants": [],
+				"status": "Pending"
+			},
+			{
+				"title": "Hackathon 2025: Cloud Solutions",
+				"description": "Create cloud-based solutions to improve data storage.",
+				"startDate": "2025-09-01T09:00:00.000Z",
+				"endDate": "2025-09-05T18:00:00.000Z",
+				"criteria": { "creativity": 72, "execution": 40, "impact": 50 },
+				"participants": [],
+				"status": "InProgress"
+			},
+			{
+				"title": "Productivity Boost Challenge",
+				"description": "Challenge to improve personal productivity by 20%.",
+				"startDate": "2025-03-05T09:00:00.000Z",
+				"endDate": "2025-03-12T18:00:00.000Z",
+				"criteria": { "creativity": 77, "execution": 49, "impact": 35 },
+				"participants": [],
+				"status": "Completed"
+			}
+		]
+	},
+	{
+		"name": "Kappa Mavericks",
+		"description": "Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.",
+		"managerId": "678c13e1429a7403ec849701",
+		"members": [
+			"678c13e1429a7403ec849701",
+			"678c13e1429a7403ec849701",
+			"678c13e1429a7403ec849701"
+		],
+		"goals": [
+			{
+				"title": "Improve Security Features",
+				"description": "Implement multi-factor authentication and encryption for user data.",
+				"targetDate": "2025-05-15T00:00:00.000Z",
+				"status": "Pending",
+				"progress": 10
+			},
+			{
+				"title": "Launch Mobile Application",
+				"description": "Develop and launch the mobile application version of the product.",
+				"targetDate": "2025-08-01T00:00:00.000Z",
+				"status": "Overdue",
+				"progress": 48
+			}
+		],
+		"challenges": [
+			{
+				"title": "AI Innovation Challenge",
+				"description": "Develop an AI-based solution for customer support.",
+				"startDate": "2025-04-10T09:00:00.000Z",
+				"endDate": "2025-04-14T18:00:00.000Z",
+				"criteria": { "creativity": 100, "execution": 7, "impact": 86 },
+				"participants": [],
+				"status": "Pending"
+			},
+			{
+				"title": "Hackathon 2025: Cloud Solutions",
+				"description": "Create cloud-based solutions to improve data storage.",
+				"startDate": "2025-09-01T09:00:00.000Z",
+				"endDate": "2025-09-05T18:00:00.000Z",
+				"criteria": { "creativity": 0, "execution": 4, "impact": 55 },
+				"participants": [],
+				"status": "Completed"
+			}
+		]
+	},
+	{
+		"name": "Epsilon Warriors",
+		"description": "Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.\n\nIn hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.\n\nAliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.",
+		"managerId": "678c13e1429a7403ec849701",
+		"members": ["678c13e1429a7403ec849701", "678c13e1429a7403ec849701"],
+		"goals": [
+			{
+				"title": "Improve Application Performance",
+				"description": "Increase app load speed by 30% within the next quarter.",
+				"targetDate": "2025-03-31T00:00:00.000Z",
+				"status": "Completed",
+				"progress": 97
+			},
+			{
+				"title": "Improve Security Features",
+				"description": "Implement multi-factor authentication and encryption for user data.",
+				"targetDate": "2025-05-15T00:00:00.000Z",
+				"status": "Completed",
+				"progress": 52
+			},
+			{
+				"title": "Automate Manual Testing",
+				"description": "Automate at least 80% of the manual testing processes.",
+				"targetDate": "2025-03-01T00:00:00.000Z",
+				"status": "Completed",
+				"progress": 12
+			},
+			{
+				"title": "Migrate to Cloud",
+				"description": "Migrate the infrastructure and applications to a cloud provider.",
+				"targetDate": "2025-06-30T00:00:00.000Z",
+				"status": "Completed",
+				"progress": 89
+			},
+			{
+				"title": "Achieve 100% Code Coverage",
+				"description": "Ensure all critical backend APIs have 100% unit test coverage.",
+				"targetDate": "2025-02-15T00:00:00.000Z",
+				"status": "Pending",
+				"progress": 0
+			}
+		],
+		"challenges": [
+			{
+				"title": "Hackathon 2025: Cloud Solutions",
+				"description": "Create cloud-based solutions to improve data storage.",
+				"startDate": "2025-09-01T09:00:00.000Z",
+				"endDate": "2025-09-05T18:00:00.000Z",
+				"criteria": { "creativity": 45, "execution": 75, "impact": 20 },
+				"participants": [],
+				"status": "Overdue"
+			},
+			{
+				"title": "AI Innovation Challenge",
+				"description": "Develop an AI-based solution for customer support.",
+				"startDate": "2025-04-10T09:00:00.000Z",
+				"endDate": "2025-04-14T18:00:00.000Z",
+				"criteria": { "creativity": 2, "execution": 35, "impact": 44 },
+				"participants": [],
+				"status": "Completed"
+			},
+			{
+				"title": "Hackathon 2025",
+				"description": "Internal hackathon to develop innovative tools.",
+				"startDate": "2025-01-20T09:00:00.000Z",
+				"endDate": "2025-01-22T18:00:00.000Z",
+				"criteria": { "creativity": 17, "execution": 98, "impact": 87 },
+				"participants": [],
+				"status": "InProgress"
+			},
+			{
+				"title": "Hackathon 2025: DevOps",
+				"description": "Focus on creating automation tools for DevOps teams.",
+				"startDate": "2025-05-01T09:00:00.000Z",
+				"endDate": "2025-05-05T18:00:00.000Z",
+				"criteria": { "creativity": 83, "execution": 71, "impact": 43 },
+				"participants": [],
+				"status": "Overdue"
+			}
+		]
+	},
+	{
+		"name": "Pi Strategists",
+		"description": "Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.",
+		"managerId": "678c13e1429a7403ec849701",
+		"members": [
+			"678c13e1429a7403ec849701",
+			"678c13e1429a7403ec849701",
+			"678c13e1429a7403ec849701"
+		],
+		"goals": [
+			{
+				"title": "Enhance User Experience",
+				"description": "Redesign the homepage to improve navigation and overall experience.",
+				"targetDate": "2025-04-01T00:00:00.000Z",
+				"status": "InProgress",
+				"progress": 44
+			},
+			{
+				"title": "Launch Mobile Application",
+				"description": "Develop and launch the mobile application version of the product.",
+				"targetDate": "2025-08-01T00:00:00.000Z",
+				"status": "Pending",
+				"progress": 88
+			},
+			{
+				"title": "Improve Application Performance",
+				"description": "Increase app load speed by 30% within the next quarter.",
+				"targetDate": "2025-03-31T00:00:00.000Z",
+				"status": "Overdue",
+				"progress": 40
+			},
+			{
+				"title": "Launch New Feature",
+				"description": "Develop and release the new feature for the mobile app.",
+				"targetDate": "2025-02-28T00:00:00.000Z",
+				"status": "Pending",
+				"progress": 6
+			}
+		],
+		"challenges": [
+			{
+				"title": "Team Collaboration Challenge",
+				"description": "Challenge to foster better collaboration within teams.",
+				"startDate": "2025-02-01T09:00:00.000Z",
+				"endDate": "2025-02-10T18:00:00.000Z",
+				"criteria": { "creativity": 5, "execution": 59, "impact": 34 },
+				"participants": [],
+				"status": "Completed"
+			},
+			{
+				"title": "AI Innovation Challenge",
+				"description": "Develop an AI-based solution for customer support.",
+				"startDate": "2025-04-10T09:00:00.000Z",
+				"endDate": "2025-04-14T18:00:00.000Z",
+				"criteria": { "creativity": 69, "execution": 88, "impact": 19 },
+				"participants": [],
+				"status": "Completed"
+			},
+			{
+				"title": "Hackathon 2025: DevOps",
+				"description": "Focus on creating automation tools for DevOps teams.",
+				"startDate": "2025-05-01T09:00:00.000Z",
+				"endDate": "2025-05-05T18:00:00.000Z",
+				"criteria": { "creativity": 67, "execution": 54, "impact": 67 },
+				"participants": [],
+				"status": "Overdue"
+			},
+			{
+				"title": "Productivity Boost Challenge",
+				"description": "Challenge to improve personal productivity by 20%.",
+				"startDate": "2025-03-05T09:00:00.000Z",
+				"endDate": "2025-03-12T18:00:00.000Z",
+				"criteria": { "creativity": 26, "execution": 67, "impact": 59 },
+				"participants": [],
+				"status": "Overdue"
+			}
+		]
+	},
+	{
+		"name": "Upsilon Wizards",
+		"description": "In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.\n\nAliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.\n\nSed ante. Vivamus tortor. Duis mattis egestas metus.",
+		"managerId": "678c13e1429a7403ec849701",
+		"members": ["678c13e1429a7403ec849701", "678c13e1429a7403ec849701"],
+		"goals": [
+			{
+				"title": "Complete API Refactoring",
+				"description": "Refactor the current API to improve scalability and performance.",
+				"targetDate": "2025-04-15T00:00:00.000Z",
+				"status": "Completed",
+				"progress": 53
+			},
+			{
+				"title": "Enhance User Experience",
+				"description": "Redesign the homepage to improve navigation and overall experience.",
+				"targetDate": "2025-04-01T00:00:00.000Z",
+				"status": "Pending",
+				"progress": 48
+			},
+			{
+				"title": "Migrate to Cloud",
+				"description": "Migrate the infrastructure and applications to a cloud provider.",
+				"targetDate": "2025-06-30T00:00:00.000Z",
+				"status": "Completed",
+				"progress": 29
+			},
+			{
+				"title": "Launch Mobile Application",
+				"description": "Develop and launch the mobile application version of the product.",
+				"targetDate": "2025-08-01T00:00:00.000Z",
+				"status": "Pending",
+				"progress": 33
+			},
+			{
+				"title": "Improve Security Features",
+				"description": "Implement multi-factor authentication and encryption for user data.",
+				"targetDate": "2025-05-15T00:00:00.000Z",
+				"status": "Overdue",
+				"progress": 88
+			}
+		],
+		"challenges": [
+			{
+				"title": "Hackathon 2025: DevOps",
+				"description": "Focus on creating automation tools for DevOps teams.",
+				"startDate": "2025-05-01T09:00:00.000Z",
+				"endDate": "2025-05-05T18:00:00.000Z",
+				"criteria": { "creativity": 42, "execution": 80, "impact": 25 },
+				"participants": [],
+				"status": "Completed"
+			},
+			{
+				"title": "Hackathon 2025",
+				"description": "Internal hackathon to develop innovative tools.",
+				"startDate": "2025-01-20T09:00:00.000Z",
+				"endDate": "2025-01-22T18:00:00.000Z",
+				"criteria": { "creativity": 12, "execution": 36, "impact": 98 },
+				"participants": [],
+				"status": "Pending"
+			},
+			{
+				"title": "Productivity Boost Challenge",
+				"description": "Challenge to improve personal productivity by 20%.",
+				"startDate": "2025-03-05T09:00:00.000Z",
+				"endDate": "2025-03-12T18:00:00.000Z",
+				"criteria": { "creativity": 19, "execution": 15, "impact": 41 },
+				"participants": [],
+				"status": "InProgress"
+			},
+			{
+				"title": "Mobile App Challenge",
+				"description": "Create a new mobile application to streamline processes.",
+				"startDate": "2025-07-01T09:00:00.000Z",
+				"endDate": "2025-07-10T18:00:00.000Z",
+				"criteria": { "creativity": 87, "execution": 65, "impact": 76 },
+				"participants": [],
+				"status": "Completed"
+			},
+			{
+				"title": "Hackathon 2025: Cloud Solutions",
+				"description": "Create cloud-based solutions to improve data storage.",
+				"startDate": "2025-09-01T09:00:00.000Z",
+				"endDate": "2025-09-05T18:00:00.000Z",
+				"criteria": { "creativity": 4, "execution": 40, "impact": 23 },
+				"participants": [],
+				"status": "Overdue"
+			}
+		]
+	},
+	{
+		"name": "Rho Architects",
+		"description": "Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.\n\nProin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.\n\nAenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.",
+		"managerId": "678c13e1429a7403ec849701",
+		"members": [
+			"678c13e1429a7403ec849701",
+			"678c13e1429a7403ec849701",
+			"678c13e1429a7403ec849701"
+		],
+		"goals": [
+			{
+				"title": "Enhance User Experience",
+				"description": "Redesign the homepage to improve navigation and overall experience.",
+				"targetDate": "2025-04-01T00:00:00.000Z",
+				"status": "Completed",
+				"progress": 98
+			},
+			{
+				"title": "Achieve 100% Code Coverage",
+				"description": "Ensure all critical backend APIs have 100% unit test coverage.",
+				"targetDate": "2025-02-15T00:00:00.000Z",
+				"status": "InProgress",
+				"progress": 19
+			}
+		],
+		"challenges": [
+			{
+				"title": "Team Collaboration Challenge",
+				"description": "Challenge to foster better collaboration within teams.",
+				"startDate": "2025-02-01T09:00:00.000Z",
+				"endDate": "2025-02-10T18:00:00.000Z",
+				"criteria": { "creativity": 26, "execution": 63, "impact": 71 },
+				"participants": [],
+				"status": "Pending"
+			},
+			{
+				"title": "Mobile App Challenge",
+				"description": "Create a new mobile application to streamline processes.",
+				"startDate": "2025-07-01T09:00:00.000Z",
+				"endDate": "2025-07-10T18:00:00.000Z",
+				"criteria": { "creativity": 37, "execution": 96, "impact": 87 },
+				"participants": [],
+				"status": "Completed"
+			}
+		]
+	},
+	{
+		"name": "Kappa Mavericks",
+		"description": "Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.\n\nSed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.",
+		"managerId": "678c13e1429a7403ec849701",
+		"members": ["678c13e1429a7403ec849701", "678c13e1429a7403ec849701"],
+		"goals": [
+			{
+				"title": "Automate Manual Testing",
+				"description": "Automate at least 80% of the manual testing processes.",
+				"targetDate": "2025-03-01T00:00:00.000Z",
+				"status": "InProgress",
+				"progress": 31
+			},
+			{
+				"title": "Complete API Refactoring",
+				"description": "Refactor the current API to improve scalability and performance.",
+				"targetDate": "2025-04-15T00:00:00.000Z",
+				"status": "Overdue",
+				"progress": 80
+			},
+			{
+				"title": "Improve Security Features",
+				"description": "Implement multi-factor authentication and encryption for user data.",
+				"targetDate": "2025-05-15T00:00:00.000Z",
+				"status": "Pending",
+				"progress": 67
+			}
+		],
+		"challenges": [
+			{
+				"title": "Hackathon 2025: Cloud Solutions",
+				"description": "Create cloud-based solutions to improve data storage.",
+				"startDate": "2025-09-01T09:00:00.000Z",
+				"endDate": "2025-09-05T18:00:00.000Z",
+				"criteria": { "creativity": 23, "execution": 54, "impact": 27 },
+				"participants": [],
+				"status": "Pending"
+			},
+			{
+				"title": "Productivity Boost Challenge",
+				"description": "Challenge to improve personal productivity by 20%.",
+				"startDate": "2025-03-05T09:00:00.000Z",
+				"endDate": "2025-03-12T18:00:00.000Z",
+				"criteria": { "creativity": 98, "execution": 58, "impact": 38 },
+				"participants": [],
+				"status": "Pending"
+			},
+			{
+				"title": "Mobile App Challenge",
+				"description": "Create a new mobile application to streamline processes.",
+				"startDate": "2025-07-01T09:00:00.000Z",
+				"endDate": "2025-07-10T18:00:00.000Z",
+				"criteria": { "creativity": 0, "execution": 65, "impact": 30 },
+				"participants": [],
+				"status": "Pending"
+			},
+			{
+				"title": "Hackathon 2025: DevOps",
+				"description": "Focus on creating automation tools for DevOps teams.",
+				"startDate": "2025-05-01T09:00:00.000Z",
+				"endDate": "2025-05-05T18:00:00.000Z",
+				"criteria": { "creativity": 42, "execution": 82, "impact": 85 },
+				"participants": [],
+				"status": "Pending"
+			}
+		]
+	},
+	{
+		"name": "Delta Builders",
+		"description": "Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.\n\nPellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.\n\nCum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+		"managerId": "678c13e1429a7403ec849701",
+		"members": ["678c13e1429a7403ec849701", "678c13e1429a7403ec849701"],
+		"goals": [
+			{
+				"title": "Improve Security Features",
+				"description": "Implement multi-factor authentication and encryption for user data.",
+				"targetDate": "2025-05-15T00:00:00.000Z",
+				"status": "Completed",
+				"progress": 51
+			},
+			{
+				"title": "Launch Mobile Application",
+				"description": "Develop and launch the mobile application version of the product.",
+				"targetDate": "2025-08-01T00:00:00.000Z",
+				"status": "InProgress",
+				"progress": 17
+			}
+		],
+		"challenges": [
+			{
+				"title": "Mobile App Challenge",
+				"description": "Create a new mobile application to streamline processes.",
+				"startDate": "2025-07-01T09:00:00.000Z",
+				"endDate": "2025-07-10T18:00:00.000Z",
+				"criteria": { "creativity": 76, "execution": 42, "impact": 7 },
+				"participants": [],
+				"status": "InProgress"
+			},
+			{
+				"title": "Cybersecurity Awareness Challenge",
+				"description": "Develop a new cybersecurity training module for employees.",
+				"startDate": "2025-08-01T09:00:00.000Z",
+				"endDate": "2025-08-10T18:00:00.000Z",
+				"criteria": {
+					"creativity": 56,
+					"execution": 39,
+					"impact": 100
+				},
+				"participants": [],
+				"status": "Completed"
+			},
+			{
+				"title": "Hackathon 2025: DevOps",
+				"description": "Focus on creating automation tools for DevOps teams.",
+				"startDate": "2025-05-01T09:00:00.000Z",
+				"endDate": "2025-05-05T18:00:00.000Z",
+				"criteria": { "creativity": 58, "execution": 42, "impact": 3 },
+				"participants": [],
+				"status": "InProgress"
+			},
+			{
+				"title": "Team Collaboration Challenge",
+				"description": "Challenge to foster better collaboration within teams.",
+				"startDate": "2025-02-01T09:00:00.000Z",
+				"endDate": "2025-02-10T18:00:00.000Z",
+				"criteria": { "creativity": 57, "execution": 11, "impact": 47 },
+				"participants": [],
+				"status": "Completed"
+			},
+			{
+				"title": "Hackathon 2025",
+				"description": "Internal hackathon to develop innovative tools.",
+				"startDate": "2025-01-20T09:00:00.000Z",
+				"endDate": "2025-01-22T18:00:00.000Z",
+				"criteria": { "creativity": 17, "execution": 65, "impact": 3 },
+				"participants": [],
+				"status": "Completed"
+			}
+		]
+	},
+	{
+		"name": "Beta Pioneers",
+		"description": "Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.\n\nPhasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.\n\nProin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.",
+		"managerId": "678c13e1429a7403ec849701",
+		"members": [
+			"678c13e1429a7403ec849701",
+			"678c13e1429a7403ec849701",
+			"678c13e1429a7403ec849701"
+		],
+		"goals": [
+			{
+				"title": "Launch Mobile Application",
+				"description": "Develop and launch the mobile application version of the product.",
+				"targetDate": "2025-08-01T00:00:00.000Z",
+				"status": "InProgress",
+				"progress": 39
+			},
+			{
+				"title": "Launch New Feature",
+				"description": "Develop and release the new feature for the mobile app.",
+				"targetDate": "2025-02-28T00:00:00.000Z",
+				"status": "Completed",
+				"progress": 28
+			},
+			{
+				"title": "Complete API Refactoring",
+				"description": "Refactor the current API to improve scalability and performance.",
+				"targetDate": "2025-04-15T00:00:00.000Z",
+				"status": "InProgress",
+				"progress": 8
+			}
+		],
+		"challenges": [
+			{
+				"title": "AI Innovation Challenge",
+				"description": "Develop an AI-based solution for customer support.",
+				"startDate": "2025-04-10T09:00:00.000Z",
+				"endDate": "2025-04-14T18:00:00.000Z",
+				"criteria": { "creativity": 60, "execution": 53, "impact": 4 },
+				"participants": [],
+				"status": "Pending"
+			},
+			{
+				"title": "Hackathon 2025: DevOps",
+				"description": "Focus on creating automation tools for DevOps teams.",
+				"startDate": "2025-05-01T09:00:00.000Z",
+				"endDate": "2025-05-05T18:00:00.000Z",
+				"criteria": { "creativity": 41, "execution": 44, "impact": 58 },
+				"participants": [],
+				"status": "Completed"
+			},
+			{
+				"title": "Team Collaboration Challenge",
+				"description": "Challenge to foster better collaboration within teams.",
+				"startDate": "2025-02-01T09:00:00.000Z",
+				"endDate": "2025-02-10T18:00:00.000Z",
+				"criteria": { "creativity": 34, "execution": 44, "impact": 87 },
+				"participants": [],
+				"status": "Overdue"
+			},
+			{
+				"title": "Hackathon 2025: Cloud Solutions",
+				"description": "Create cloud-based solutions to improve data storage.",
+				"startDate": "2025-09-01T09:00:00.000Z",
+				"endDate": "2025-09-05T18:00:00.000Z",
+				"criteria": { "creativity": 64, "execution": 23, "impact": 13 },
+				"participants": [],
+				"status": "Pending"
+			}
+		]
+	},
+	{
+		"name": "Kappa Mavericks",
+		"description": "Phasellus in felis. Donec semper sapien a libero. Nam dui.",
+		"managerId": "678c13e1429a7403ec849701",
+		"members": ["678c13e1429a7403ec849701", "678c13e1429a7403ec849701"],
+		"goals": [
+			{
+				"title": "Launch Mobile Application",
+				"description": "Develop and launch the mobile application version of the product.",
+				"targetDate": "2025-08-01T00:00:00.000Z",
+				"status": "InProgress",
+				"progress": 75
+			},
+			{
+				"title": "Improve Security Features",
+				"description": "Implement multi-factor authentication and encryption for user data.",
+				"targetDate": "2025-05-15T00:00:00.000Z",
+				"status": "Pending",
+				"progress": 81
+			}
+		],
+		"challenges": [
+			{
+				"title": "AI Innovation Challenge",
+				"description": "Develop an AI-based solution for customer support.",
+				"startDate": "2025-04-10T09:00:00.000Z",
+				"endDate": "2025-04-14T18:00:00.000Z",
+				"criteria": { "creativity": 24, "execution": 36, "impact": 33 },
+				"participants": [],
+				"status": "Completed"
+			},
+			{
+				"title": "Mobile App Challenge",
+				"description": "Create a new mobile application to streamline processes.",
+				"startDate": "2025-07-01T09:00:00.000Z",
+				"endDate": "2025-07-10T18:00:00.000Z",
+				"criteria": { "creativity": 19, "execution": 41, "impact": 13 },
+				"participants": [],
+				"status": "Overdue"
+			}
+		]
+	},
+	{
+		"name": "Eta Engineers",
+		"description": "Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.\n\nCras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.\n\nProin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.",
+		"managerId": "678c13e1429a7403ec849701",
+		"members": ["678c13e1429a7403ec849701", "678c13e1429a7403ec849701"],
+		"goals": [
+			{
+				"title": "Migrate to Cloud",
+				"description": "Migrate the infrastructure and applications to a cloud provider.",
+				"targetDate": "2025-06-30T00:00:00.000Z",
+				"status": "Pending",
+				"progress": 23
+			},
+			{
+				"title": "Complete API Refactoring",
+				"description": "Refactor the current API to improve scalability and performance.",
+				"targetDate": "2025-04-15T00:00:00.000Z",
+				"status": "Completed",
+				"progress": 99
+			},
+			{
+				"title": "Enhance User Experience",
+				"description": "Redesign the homepage to improve navigation and overall experience.",
+				"targetDate": "2025-04-01T00:00:00.000Z",
+				"status": "Completed",
+				"progress": 37
+			},
+			{
+				"title": "Improve Security Features",
+				"description": "Implement multi-factor authentication and encryption for user data.",
+				"targetDate": "2025-05-15T00:00:00.000Z",
+				"status": "Completed",
+				"progress": 20
+			},
+			{
+				"title": "Achieve 100% Code Coverage",
+				"description": "Ensure all critical backend APIs have 100% unit test coverage.",
+				"targetDate": "2025-02-15T00:00:00.000Z",
+				"status": "Pending",
+				"progress": 32
+			}
+		],
+		"challenges": [
+			{
+				"title": "Sustainability Challenge",
+				"description": "Design a more eco-friendly tech solution.",
+				"startDate": "2025-06-01T09:00:00.000Z",
+				"endDate": "2025-06-10T18:00:00.000Z",
+				"criteria": { "creativity": 39, "execution": 31, "impact": 15 },
+				"participants": [],
+				"status": "InProgress"
+			},
+			{
+				"title": "Cybersecurity Awareness Challenge",
+				"description": "Develop a new cybersecurity training module for employees.",
+				"startDate": "2025-08-01T09:00:00.000Z",
+				"endDate": "2025-08-10T18:00:00.000Z",
+				"criteria": { "creativity": 87, "execution": 22, "impact": 63 },
+				"participants": [],
+				"status": "InProgress"
+			},
+			{
+				"title": "Hackathon 2025: DevOps",
+				"description": "Focus on creating automation tools for DevOps teams.",
+				"startDate": "2025-05-01T09:00:00.000Z",
+				"endDate": "2025-05-05T18:00:00.000Z",
+				"criteria": { "creativity": 42, "execution": 5, "impact": 32 },
+				"participants": [],
+				"status": "Completed"
+			},
+			{
+				"title": "Hackathon 2025: Cloud Solutions",
+				"description": "Create cloud-based solutions to improve data storage.",
+				"startDate": "2025-09-01T09:00:00.000Z",
+				"endDate": "2025-09-05T18:00:00.000Z",
+				"criteria": { "creativity": 96, "execution": 86, "impact": 71 },
+				"participants": [],
+				"status": "Overdue"
+			}
+		]
+	},
+	{
+		"name": "Kappa Mavericks",
+		"description": "Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.",
+		"managerId": "678c13e1429a7403ec849701",
+		"members": [
+			"678c13e1429a7403ec849701",
+			"678c13e1429a7403ec849701",
+			"678c13e1429a7403ec849701"
+		],
+		"goals": [
+			{
+				"title": "Enhance User Experience",
+				"description": "Redesign the homepage to improve navigation and overall experience.",
+				"targetDate": "2025-04-01T00:00:00.000Z",
+				"status": "Pending",
+				"progress": 0
+			},
+			{
+				"title": "Launch Mobile Application",
+				"description": "Develop and launch the mobile application version of the product.",
+				"targetDate": "2025-08-01T00:00:00.000Z",
+				"status": "Completed",
+				"progress": 43
+			},
+			{
+				"title": "Improve Application Performance",
+				"description": "Increase app load speed by 30% within the next quarter.",
+				"targetDate": "2025-03-31T00:00:00.000Z",
+				"status": "InProgress",
+				"progress": 39
+			},
+			{
+				"title": "Migrate to Cloud",
+				"description": "Migrate the infrastructure and applications to a cloud provider.",
+				"targetDate": "2025-06-30T00:00:00.000Z",
+				"status": "Pending",
+				"progress": 33
+			}
+		],
+		"challenges": [
+			{
+				"title": "Hackathon 2025: DevOps",
+				"description": "Focus on creating automation tools for DevOps teams.",
+				"startDate": "2025-05-01T09:00:00.000Z",
+				"endDate": "2025-05-05T18:00:00.000Z",
+				"criteria": { "creativity": 62, "execution": 0, "impact": 16 },
+				"participants": [],
+				"status": "InProgress"
+			},
+			{
+				"title": "Productivity Boost Challenge",
+				"description": "Challenge to improve personal productivity by 20%.",
+				"startDate": "2025-03-05T09:00:00.000Z",
+				"endDate": "2025-03-12T18:00:00.000Z",
+				"criteria": { "creativity": 18, "execution": 95, "impact": 66 },
+				"participants": [],
+				"status": "Pending"
+			}
+		]
+	},
+	{
+		"name": "Pi Strategists",
+		"description": "Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.\n\nFusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.\n\nSed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.",
+		"managerId": "678c13e1429a7403ec849701",
+		"members": [
+			"678c13e1429a7403ec849701",
+			"678c13e1429a7403ec849701",
+			"678c13e1429a7403ec849701"
+		],
+		"goals": [
+			{
+				"title": "Improve Security Features",
+				"description": "Implement multi-factor authentication and encryption for user data.",
+				"targetDate": "2025-05-15T00:00:00.000Z",
+				"status": "Pending",
+				"progress": 82
+			},
+			{
+				"title": "Migrate to Cloud",
+				"description": "Migrate the infrastructure and applications to a cloud provider.",
+				"targetDate": "2025-06-30T00:00:00.000Z",
+				"status": "Completed",
+				"progress": 83
+			},
+			{
+				"title": "Launch Mobile Application",
+				"description": "Develop and launch the mobile application version of the product.",
+				"targetDate": "2025-08-01T00:00:00.000Z",
+				"status": "Pending",
+				"progress": 34
+			},
+			{
+				"title": "Achieve 100% Code Coverage",
+				"description": "Ensure all critical backend APIs have 100% unit test coverage.",
+				"targetDate": "2025-02-15T00:00:00.000Z",
+				"status": "Pending",
+				"progress": 57
+			}
+		],
+		"challenges": [
+			{
+				"title": "Hackathon 2025: Cloud Solutions",
+				"description": "Create cloud-based solutions to improve data storage.",
+				"startDate": "2025-09-01T09:00:00.000Z",
+				"endDate": "2025-09-05T18:00:00.000Z",
+				"criteria": { "creativity": 99, "execution": 13, "impact": 90 },
+				"participants": [],
+				"status": "InProgress"
+			},
+			{
+				"title": "Productivity Boost Challenge",
+				"description": "Challenge to improve personal productivity by 20%.",
+				"startDate": "2025-03-05T09:00:00.000Z",
+				"endDate": "2025-03-12T18:00:00.000Z",
+				"criteria": { "creativity": 82, "execution": 87, "impact": 10 },
+				"participants": [],
+				"status": "Overdue"
+			}
+		]
+	},
+	{
+		"name": "Upsilon Wizards",
+		"description": "Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.\n\nIn hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.\n\nAliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.",
+		"managerId": "678c13e1429a7403ec849701",
+		"members": ["678c13e1429a7403ec849701", "678c13e1429a7403ec849701"],
+		"goals": [
+			{
+				"title": "Improve Security Features",
+				"description": "Implement multi-factor authentication and encryption for user data.",
+				"targetDate": "2025-05-15T00:00:00.000Z",
+				"status": "InProgress",
+				"progress": 88
+			},
+			{
+				"title": "Launch Mobile Application",
+				"description": "Develop and launch the mobile application version of the product.",
+				"targetDate": "2025-08-01T00:00:00.000Z",
+				"status": "Pending",
+				"progress": 34
+			},
+			{
+				"title": "Complete API Refactoring",
+				"description": "Refactor the current API to improve scalability and performance.",
+				"targetDate": "2025-04-15T00:00:00.000Z",
+				"status": "InProgress",
+				"progress": 54
+			},
+			{
+				"title": "Enhance User Experience",
+				"description": "Redesign the homepage to improve navigation and overall experience.",
+				"targetDate": "2025-04-01T00:00:00.000Z",
+				"status": "InProgress",
+				"progress": 32
+			},
+			{
+				"title": "Automate Manual Testing",
+				"description": "Automate at least 80% of the manual testing processes.",
+				"targetDate": "2025-03-01T00:00:00.000Z",
+				"status": "InProgress",
+				"progress": 88
+			}
+		],
+		"challenges": [
+			{
+				"title": "Hackathon 2025",
+				"description": "Internal hackathon to develop innovative tools.",
+				"startDate": "2025-01-20T09:00:00.000Z",
+				"endDate": "2025-01-22T18:00:00.000Z",
+				"criteria": { "creativity": 12, "execution": 10, "impact": 44 },
+				"participants": [],
+				"status": "InProgress"
+			},
+			{
+				"title": "AI Innovation Challenge",
+				"description": "Develop an AI-based solution for customer support.",
+				"startDate": "2025-04-10T09:00:00.000Z",
+				"endDate": "2025-04-14T18:00:00.000Z",
+				"criteria": { "creativity": 27, "execution": 4, "impact": 69 },
+				"participants": [],
+				"status": "InProgress"
+			}
+		]
+	},
+	{
+		"name": "Iota Creators",
+		"description": "Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.",
+		"managerId": "678c13e1429a7403ec849701",
+		"members": ["678c13e1429a7403ec849701"],
+		"goals": [
+			{
+				"title": "Achieve 100% Code Coverage",
+				"description": "Ensure all critical backend APIs have 100% unit test coverage.",
+				"targetDate": "2025-02-15T00:00:00.000Z",
+				"status": "Completed",
+				"progress": 58
+			},
+			{
+				"title": "Enhance User Experience",
+				"description": "Redesign the homepage to improve navigation and overall experience.",
+				"targetDate": "2025-04-01T00:00:00.000Z",
+				"status": "Overdue",
+				"progress": 100
+			},
+			{
+				"title": "Improve Application Performance",
+				"description": "Increase app load speed by 30% within the next quarter.",
+				"targetDate": "2025-03-31T00:00:00.000Z",
+				"status": "Completed",
+				"progress": 45
+			},
+			{
+				"title": "Reduce Bug Count",
+				"description": "Fix at least 90% of reported bugs in the current sprint.",
+				"targetDate": "2025-01-31T00:00:00.000Z",
+				"status": "Overdue",
+				"progress": 98
+			},
+			{
+				"title": "Improve Security Features",
+				"description": "Implement multi-factor authentication and encryption for user data.",
+				"targetDate": "2025-05-15T00:00:00.000Z",
+				"status": "InProgress",
+				"progress": 95
+			}
+		],
+		"challenges": [
+			{
+				"title": "Cybersecurity Awareness Challenge",
+				"description": "Develop a new cybersecurity training module for employees.",
+				"startDate": "2025-08-01T09:00:00.000Z",
+				"endDate": "2025-08-10T18:00:00.000Z",
+				"criteria": { "creativity": 62, "execution": 92, "impact": 84 },
+				"participants": [],
+				"status": "InProgress"
+			},
+			{
+				"title": "Hackathon 2025: Cloud Solutions",
+				"description": "Create cloud-based solutions to improve data storage.",
+				"startDate": "2025-09-01T09:00:00.000Z",
+				"endDate": "2025-09-05T18:00:00.000Z",
+				"criteria": { "creativity": 44, "execution": 62, "impact": 68 },
+				"participants": [],
+				"status": "Pending"
+			}
+		]
+	},
+	{
+		"name": "Delta Builders",
+		"description": "Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.\n\nAenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.",
+		"managerId": "678c13e1429a7403ec849701",
+		"members": ["678c13e1429a7403ec849701"],
+		"goals": [
+			{
+				"title": "Launch Mobile Application",
+				"description": "Develop and launch the mobile application version of the product.",
+				"targetDate": "2025-08-01T00:00:00.000Z",
+				"status": "Overdue",
+				"progress": 56
+			},
+			{
+				"title": "Improve Application Performance",
+				"description": "Increase app load speed by 30% within the next quarter.",
+				"targetDate": "2025-03-31T00:00:00.000Z",
+				"status": "Overdue",
+				"progress": 20
+			},
+			{
+				"title": "Achieve 100% Code Coverage",
+				"description": "Ensure all critical backend APIs have 100% unit test coverage.",
+				"targetDate": "2025-02-15T00:00:00.000Z",
+				"status": "Pending",
+				"progress": 63
+			},
+			{
+				"title": "Launch New Feature",
+				"description": "Develop and release the new feature for the mobile app.",
+				"targetDate": "2025-02-28T00:00:00.000Z",
+				"status": "Pending",
+				"progress": 44
+			},
+			{
+				"title": "Reduce Bug Count",
+				"description": "Fix at least 90% of reported bugs in the current sprint.",
+				"targetDate": "2025-01-31T00:00:00.000Z",
+				"status": "Overdue",
+				"progress": 56
+			}
+		],
+		"challenges": [
+			{
+				"title": "Hackathon 2025: Cloud Solutions",
+				"description": "Create cloud-based solutions to improve data storage.",
+				"startDate": "2025-09-01T09:00:00.000Z",
+				"endDate": "2025-09-05T18:00:00.000Z",
+				"criteria": { "creativity": 42, "execution": 33, "impact": 38 },
+				"participants": [],
+				"status": "Completed"
+			},
+			{
+				"title": "Hackathon 2025: DevOps",
+				"description": "Focus on creating automation tools for DevOps teams.",
+				"startDate": "2025-05-01T09:00:00.000Z",
+				"endDate": "2025-05-05T18:00:00.000Z",
+				"criteria": { "creativity": 27, "execution": 80, "impact": 68 },
+				"participants": [],
+				"status": "InProgress"
+			},
+			{
+				"title": "Productivity Boost Challenge",
+				"description": "Challenge to improve personal productivity by 20%.",
+				"startDate": "2025-03-05T09:00:00.000Z",
+				"endDate": "2025-03-12T18:00:00.000Z",
+				"criteria": { "creativity": 62, "execution": 39, "impact": 93 },
+				"participants": [],
+				"status": "InProgress"
+			},
+			{
+				"title": "Cybersecurity Awareness Challenge",
+				"description": "Develop a new cybersecurity training module for employees.",
+				"startDate": "2025-08-01T09:00:00.000Z",
+				"endDate": "2025-08-10T18:00:00.000Z",
+				"criteria": { "creativity": 10, "execution": 57, "impact": 71 },
+				"participants": [],
+				"status": "Pending"
+			},
+			{
+				"title": "AI Innovation Challenge",
+				"description": "Develop an AI-based solution for customer support.",
+				"startDate": "2025-04-10T09:00:00.000Z",
+				"endDate": "2025-04-14T18:00:00.000Z",
+				"criteria": { "creativity": 7, "execution": 42, "impact": 13 },
+				"participants": [],
+				"status": "Pending"
+			}
+		]
+	}
+]

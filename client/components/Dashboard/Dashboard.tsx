@@ -2,15 +2,13 @@
 import Header from "./Header";
 import TasksListSection from "./TasksListSection";
 import ViewTaskModal from "../Create-New/ViewTaskModal";
+import { useUser } from "@/context/UserContext";
 
-const Dashboard = ({
-	user,
-}: {
-	user: { id: string; name: string; email: string; token: string };
-}) => {
+const Dashboard = () => {
+	const { userData } = useUser();
 	return (
 		<div className=' w-full h-full'>
-			<Header name={user?.name} />
+			<Header name={userData?.name || "Guest"} />
 			<TasksListSection />
 			<ViewTaskModal />
 		</div>

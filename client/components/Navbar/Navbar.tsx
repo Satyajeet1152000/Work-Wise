@@ -1,26 +1,20 @@
+"use client";
+
 import UserAvatar from "./UserAvatar";
 import Toolbar from "./Toolbar";
 import Menus from "./Menus";
-// import { auth } from "@/auth/auth";
-// import CreateTaskButton from "./CreateTaskButton";
+import { useUser } from "@/context/UserContext";
 
-const Navbar = async () => {
-	// const data = await auth();
-	const data = {
-		user: {
-			id: "12345",
-			name: "Satyajeet Singh",
-			email: "satyajeet@gmail.com",
-			token: "123456",
-		},
-	};
+const Navbar = () => {
+	const { userData } = useUser();
+
 	return (
 		<div className='px-3 py-5 space-y-2'>
 			<div>
 				<UserAvatar
 					user={{
 						image: "https://w7.pngwing.com/pngs/178/595/png-transparent-user-profile-computer-icons-login-user-avatars-thumbnail.png",
-						name: data?.user.name as string,
+						name: userData?.name || "Guest",
 					}}
 				/>
 				<Toolbar />

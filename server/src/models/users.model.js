@@ -12,6 +12,7 @@ const userSchema = new mongoose.Schema(
 			required: true,
 			unique: true,
 			trim: true,
+			// index: true,
 		},
 		password: {
 			type: String,
@@ -24,6 +25,14 @@ const userSchema = new mongoose.Schema(
 		},
 		department: {
 			type: String,
+			enum: [
+				"Engineering",
+				"Marketing",
+				"Sales",
+				"HR",
+				"IT",
+				"Accounting",
+			],
 			required: true,
 		},
 		position: {
@@ -45,7 +54,10 @@ const userSchema = new mongoose.Schema(
 				inApp: { type: Boolean, default: true },
 				deadlineReminders: { type: Boolean, default: true },
 			},
-			dashboardLayout: { type: mongoose.Schema.Types.Mixed },
+			dashboardLayout: {
+				showTasks: { type: Boolean, default: true },
+				showPerformance: { type: Boolean, default: true },
+			},
 		},
 	},
 	{
@@ -53,9 +65,9 @@ const userSchema = new mongoose.Schema(
 	}
 );
 
-userSchema.index({ email: 1 });
-userSchema.index({ department: 1 });
-userSchema.index({ manager: 1 });
+// userSchema.index({ email: 1 });
+// userSchema.index({ department: 1 });
+// userSchema.index({ manager: 1 });
 
 const User = mongoose.model("User", userSchema);
 

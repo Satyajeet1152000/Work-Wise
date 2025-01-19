@@ -73,13 +73,13 @@ const Task = ({ data }: TaskProps) => {
 				</span>
 			</div>
 
-			<p className='text-gray-600 dark:text-gray-400 text-sm'>
+			<p className='text-gray-600 dark:text-gray-400 text-sm line-clamp-2'>
 				{data.description}
 			</p>
 
 			{/* Priority */}
 			<div className='flex justify-between items-center text-sm text-gray-600 dark:text-gray-300'>
-				<div>Assidned By: {data.reference?.refererId}</div>
+				<div>Assidned By: {data.reference?.name}</div>
 				<div>
 					<span
 						className={cn(
@@ -96,6 +96,7 @@ const Task = ({ data }: TaskProps) => {
 					</span>
 				</div>
 			</div>
+
 			{/* Estimated and Spent Time */}
 			<div className='flex justify-between items-center text-lg text-gray-600 dark:text-gray-300'>
 				<div>

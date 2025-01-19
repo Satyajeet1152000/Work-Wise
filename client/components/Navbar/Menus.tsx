@@ -1,18 +1,11 @@
-import {
-	ChartLine,
-	HouseIcon,
-	Settings,
-	SquareKanbanIcon,
-	Users,
-} from "lucide-react";
+import { Bot, ChartLine, HouseIcon, Settings, Users } from "lucide-react";
 import React from "react";
-import { Button } from "../ui/button";
 
 const data = [
 	{ name: "Dashboard", icon: <HouseIcon />, href: "/dashboard" },
 	// { name: "Boards", icon: <SquareKanbanIcon />  href: "/boards" },
-	{ name: "Teams", icon: <Users />, href: "/teams" },
 	{ name: "Analytics", icon: <ChartLine />, href: "/analytics" },
+	{ name: "AI Insights", icon: <Bot />, href: "/ai-insights" },
 	{ name: "Settings", icon: <Settings />, href: "" },
 ];
 const Menus = () => {
