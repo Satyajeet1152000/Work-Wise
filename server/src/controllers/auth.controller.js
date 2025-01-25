@@ -37,17 +37,13 @@ export const login = async (req, res) => {
 				.json({ success: false, error: "Invalid password" });
 		}
 
-		user.token = jwt.sign(
-			{
-				id: user._id,
-				name: user.name,
-				email: user.email,
-				role: user.role,
-			},
-			process.env.JWT_SECRET
-		);
+		user.emailVerified = new Date();
 
-		res.status(200).json({ success: true, user });
+		const token = jwt.sign({ ...user }, process.env.JWT_SECRET, {
+			expiresIn: "7d",
+		});
+
+		res.status(200).json({ success: true, token });
 	} catch (error) {
 		console.error("Error during authorization:", error);
 		return null;

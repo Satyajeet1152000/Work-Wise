@@ -1,7 +1,7 @@
 "use client";
 
 import * as React from "react";
-import { Bar, BarChart, CartesianGrid, XAxis } from "recharts";
+import { Bar, BarChart, CartesianGrid, LabelList, XAxis } from "recharts";
 
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import {
@@ -27,12 +27,13 @@ interface UserEfficiencyData {
 }
 
 export function AllUsersEfficiency({ data }: { data: UserEfficiencyData[] }) {
+	// console.log(data);
 	const chartData = data;
 
 	return (
 		<Card>
 			<CardHeader className='flex flex-col items-stretch space-y-0 border-b p-0 sm:flex-row'>
-				<div className='flex flex-1 flex-col justify-center gap-1 px-6 py-5 sm:py-6'>
+				<div className='flex flex-1 flex-col justify-center gap-1 px-6 py-5 sm:py-6 text-2xl'>
 					<CardTitle>Employees Efficiency Score</CardTitle>
 				</div>
 			</CardHeader>
@@ -47,6 +48,7 @@ export function AllUsersEfficiency({ data }: { data: UserEfficiencyData[] }) {
 						margin={{
 							left: 12,
 							right: 12,
+							top: 10,
 						}}
 					>
 						<CartesianGrid vertical={false} />
@@ -69,7 +71,15 @@ export function AllUsersEfficiency({ data }: { data: UserEfficiencyData[] }) {
 						<Bar
 							dataKey='efficiencyScore'
 							fill={`hsl(var(--chart-1))`}
-						/>
+						>
+							<LabelList
+								dataKey='efficiencyScore'
+								position='top'
+								offset={10}
+								className='fill-foreground'
+								fontSize={10}
+							/>
+						</Bar>
 					</BarChart>
 				</ChartContainer>
 			</CardContent>

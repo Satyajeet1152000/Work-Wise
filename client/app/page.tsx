@@ -3,5 +3,6 @@
 import { redirect } from "next/navigation";
 
 export default function Home() {
-	redirect("/dashboard");
+	redirect("/home");
+	// return <main>Home</main>;
 }

@@ -11,8 +11,8 @@ const FormSuccess = ({ success, message }: FormSuccessProps) => {
 	return (
 		<div
 			className={cn(" p-3 rounded-md flex items-center gap-x-2 text-lg", {
-				"bg-emerald-500/20 text-emerald-500": success,
-				"bg-destructive/20 text-destructive": !success,
+				"bg-emerald-500/20 text-emerald-300": success,
+				"bg-red-500/20 text-red-300": !success,
 			})}
 		>
 			{success ? (

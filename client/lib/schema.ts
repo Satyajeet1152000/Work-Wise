@@ -1,15 +1,16 @@
 import { z } from "zod";
 
-export const LoginSchema = z.object({
+export const LoginFormSchema = z.object({
 	email: z.string().email({
 		message: "Email is required.",
 	}),
 	password: z.string().min(1, {
 		message: "Pasword is required.",
 	}),
+	type: z.enum(["credentials", "social"]),
 });
 
-export const RegisterSchema = z.object({
+export const RegisterFormSchema = z.object({
 	name: z.string().min(1, {
 		message: "Name is required.",
 	}),

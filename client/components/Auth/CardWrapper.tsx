@@ -17,7 +17,7 @@ const CardWrapper = ({
 	footerHrefText,
 }: CardWrapperProps) => {
 	return (
-		<Card className='shadow-xl shadow-black p-10 bg-transparent backdrop:blur-sm border-none z-10 text-white'>
+		<Card className='shadow-2xl  shadow-black p-10 bg-transparent backdrop:blur-sm border border-gray-800 z-10 text-white'>
 			<CardHeader>
 				<Header />
 			</CardHeader>

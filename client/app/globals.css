@@ -72,4 +72,14 @@ body,
 	body {
 		@apply bg-background text-foreground;
 	}
+
+	.bbr {
+		@apply border border-red-500;
+	}
+	.bbw {
+		@apply border border-white;
+	}
+	.bbb {
+		@apply border border-blue-500;
+	}
 }

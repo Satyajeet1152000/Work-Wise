@@ -28,7 +28,7 @@
 		"**/*.ts",
 		"**/*.tsx",
 		".next/types/**/*.ts",
-		"actions/tasksActions..js"
+		"actions/tasks/tasksActions..js"
 	],
 	"exclude": ["node_modules"]
 }

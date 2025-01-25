@@ -3,6 +3,8 @@
 // import teamsData from "./teams.json" assert { type: "json" };
 // import notificationsData from "./notifications.json" assert { type: "json" };
 
+import User from "../models/users.model.js";
+
 // import User from "../models/users.model.js";
 // import Task from "../models/tasks.model.js";
 // import Team from "../models/team.model.js";
@@ -282,3 +284,31 @@
 // 		console.error("Error during user assignment to notifications:", error);
 // 	}
 // };
+
+export const updateUserImage = async () => {
+	try {
+		console.log("Fetching users...");
+
+		// Fetch all users from the database
+		const users = await User.find();
+
+		console.log(`Found ${users.length} users in the database.`);
+
+		// Iterate over the users and update their image
+		for (let user of users) {
+			// Select a random number between 50 and 75
+			const randomNumber = Math.floor(Math.random() * 25) + 50;
+
+			// Update the user's image
+			user.avatar = `https://xsgames.co/randomusers/assets/avatars/male/${randomNumber}.jpg`;
+
+			// Save the updated user
+			await user.save();
+			console.log(`Updated user ${user.name} with image.`);
+		}
+
+		console.log("User images updated successfully.");
+	} catch (error) {
+		console.error("Error during updating user images:", error);
+	}
+};

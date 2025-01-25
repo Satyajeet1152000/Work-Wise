@@ -20,9 +20,11 @@ interface PerformanceFactors {
 }
 
 export function PerformanceFactors({
+	name,
 	employeeData,
 	averageData,
 }: {
+	name: string;
 	employeeData: PerformanceFactors;
 	averageData: PerformanceFactors;
 }) {
@@ -50,19 +52,19 @@ export function PerformanceFactors({
 	});
 
 	const chartConfig = {
+		your: {
+			label: name,
+			color: "hsl(var(--chart-2))",
+		},
 		average: {
 			label: "Average",
 			color: "hsl(var(--chart-1))",
 		},
-		your: {
-			label: "Your",
-			color: "hsl(var(--chart-2))",
-		},
 	};
 	return (
-		<Card className='flex flex-col w-full'>
+		<Card className=' '>
 			<CardHeader className='items-center pb-4'>
-				<CardTitle>Performance Factors</CardTitle>
+				<CardTitle>{name}</CardTitle>
 			</CardHeader>
 			<CardContent>
 				<ChartContainer

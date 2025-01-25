@@ -14,11 +14,35 @@ import CardWrapper from "./CardWrapper";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { z } from "zod";
-import { LoginSchema } from "@/lib/schema";
+import { LoginFormSchema } from "@/lib/schema";
 import FormSuccess from "../FormSuccess";
-import { signIn } from "next-auth/react";
-import { redirect } from "next/navigation";
-import { useUser } from "@/context/UserContext";
+import { useRouter } from "next/navigation";
+import SocialLoginIconButton from "./SocialLoginIconButton";
+
+const dummyUsers = [
+	{ label: "None", email: "", password: "" },
+	{ label: "Chevy Hugk", email: "chugk0@devhub.com", password: "password" },
+	{
+		label: "Tobias Antognoni",
+		email: "tantognoni1@gnu.org",
+		password: "password",
+	},
+	{
+		label: "Jamie Doerffer",
+		email: "jdoerffer2@issuu.com",
+		password: "password",
+	},
+	{
+		label: "Deidre Gammack",
+		email: "dgammack3@google.pl",
+		password: "password",
+	},
+	{
+		label: "Stefania Nellies",
+		email: "snellies4@google.com.au",
+		password: "password",
+	},
+];
 
 const LoginForm = () => {
 	const [isPending, startTransition] = useTransition();
@@ -26,43 +50,67 @@ const LoginForm = () => {
 		success: false,
 		message: "",
 	});
+	const router = useRouter();
 
-	const { login } = useUser();
-
-	const form = useForm<z.infer<typeof LoginSchema>>({
-		resolver: zodResolver(LoginSchema),
+	const form = useForm<z.infer<typeof LoginFormSchema>>({
+		resolver: zodResolver(LoginFormSchema),
 		defaultValues: {
 			email: "",
 			password: "",
+			type: "credentials",
 		},
 	});
 
-	const onSubmit = (values: z.infer<typeof LoginSchema>) => {
+	const onSubmit = (values: z.infer<typeof LoginFormSchema>) => {
 		startTransition(async () => {
-			// console.log(values);
+			try {
+				values.type = "credentials";
+				// console.log("Form Values", values);
 
-			// Fetch the data from the backend
-			const res = await fetch(`${process.env.API_URL}/auth/login`, {
-				method: "POST",
-				headers: {
-					"Content-Type": "application/json",
-				},
-				body: JSON.stringify(values),
-			});
+				const res = await fetch(`/api/login`, {
+					method: "POST",
+					headers: {
+						"Content-Type": "application/json",
+					},
+					body: JSON.stringify(values),
+				});
 
-			const data = await res.json();
+				// console.log("Login Response", res);
+				const result = await res.json();
 
-			if (data.success) {
-				login(data.user);
-				redirect("/dashboard");
-			} else {
-				// Set form error state
+				// const res = { ok: true };
+				// const result = { success: true, error: "asada" };
+
+				if (res.ok && result.success) {
+					setFormSuccess({
+						success: true,
+						message: "Login Successful",
+					});
+					router.push("/home");
+				} else {
+					setFormSuccess({
+						success: false,
+						message: result.error || "Invalid Credentials",
+					});
+				}
+			} catch (error) {
+				// console.error("Error during login", error);
 				setFormSuccess({
 					success: false,
-					message: data.error,
+					message: "Login Form Submission Errors",
 				});
 			}
 		});
+	};
+
+	const handleDummyUserChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
+		const selectedUser = dummyUsers.find(
+			(user) => user.label === e.target.value
+		);
+		if (selectedUser) {
+			form.setValue("email", selectedUser.email);
+			form.setValue("password", selectedUser.password);
+		}
 	};
 
 	return (
@@ -77,6 +125,26 @@ const LoginForm = () => {
 					className=' space-y-6'
 				>
 					<div className=' space-y-6'>
+						<div className='space-y-3'>
+							<label className='block text-sm font-medium '>
+								Dummy Users
+							</label>
+							<select
+								onChange={handleDummyUserChange}
+								className='w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 bg-transparent'
+								disabled={isPending}
+							>
+								{dummyUsers.map((user) => (
+									<option
+										key={user.label}
+										value={user.label}
+										className='bg-black'
+									>
+										{user.label}
+									</option>
+								))}
+							</select>
+						</div>
 						<FormField
 							control={form.control}
 							name='email'
@@ -120,33 +188,14 @@ const LoginForm = () => {
 					/>
 					<Button
 						type='submit'
-						className=' w-full bg-[#154879] hover:bg-[#0e3a6a] py-7 text-xl font-normal'
+						className=' w-full bg-[#154879] hover:bg-[#0e3a6a] py-7 text-xl font-normal text-white'
 						disabled={isPending}
 					>
 						Login
 					</Button>
 				</form>
 
-				<div className='mt-4 space-y-2'>
-					<Button
-						onClick={() => signIn("google")}
-						className='w-full bg-red-500 text-white p-2 rounded'
-					>
-						Sign in with Google
-					</Button>
-					<Button
-						onClick={() => signIn("facebook")}
-						className='w-full bg-blue-600 text-white p-2 rounded'
-					>
-						Sign in with Facebook
-					</Button>
-					<Button
-						onClick={() => signIn("apple")}
-						className='w-full bg-black text-white p-2 rounded'
-					>
-						Sign in with Apple
-					</Button>
-				</div>
+				<SocialLoginIconButton />
 			</Form>
 		</CardWrapper>
 	);

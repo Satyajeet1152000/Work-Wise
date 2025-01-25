@@ -15,7 +15,7 @@ import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { z } from "zod";
 import FormSuccess from "../FormSuccess";
-import { RegisterSchema } from "@/lib/schema";
+import { RegisterFormSchema } from "@/lib/schema";
 // import register from "@/actions/auth/register";
 
 const RegisterForm = () => {
@@ -26,8 +26,8 @@ const RegisterForm = () => {
 	});
 	// const router = useRouter();
 
-	const form = useForm<z.infer<typeof RegisterSchema>>({
-		resolver: zodResolver(RegisterSchema),
+	const form = useForm<z.infer<typeof RegisterFormSchema>>({
+		resolver: zodResolver(RegisterFormSchema),
 		defaultValues: {
 			name: "",
 			email: "",
@@ -35,7 +35,7 @@ const RegisterForm = () => {
 		},
 	});
 
-	const onSubmit = (values: z.infer<typeof RegisterSchema>) => {
+	const onSubmit = (values: z.infer<typeof RegisterFormSchema>) => {
 		startTransition(async () => {
 			const res = await fetch(`${process.env.API_URL}/auth/signup`, {
 				method: "POST",
@@ -135,7 +135,7 @@ const RegisterForm = () => {
 					/>
 					<Button
 						type='submit'
-						className=' w-full bg-[#154879] hover:bg-[#0e3a6a] py-7 text-xl font-normal'
+						className=' w-full bg-[#154879] hover:bg-[#0e3a6a] py-7 text-xl font-normal text-white'
 						disabled={isPending}
 					>
 						Sign Up

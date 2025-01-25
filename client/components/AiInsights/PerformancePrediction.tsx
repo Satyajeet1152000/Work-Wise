@@ -37,7 +37,7 @@ interface PredictionData {
 }
 export function PerformancePrediction({ data }: { data: PredictionData[] }) {
 	return (
-		<Card className='flex flex-col flex-grow relative'>
+		<Card className='relative'>
 			<CardHeader>
 				<CardTitle>Performance Prediction</CardTitle>
 			</CardHeader>

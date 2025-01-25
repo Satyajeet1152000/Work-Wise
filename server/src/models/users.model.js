@@ -23,6 +23,9 @@ const userSchema = new mongoose.Schema(
 			enum: ["employee", "manager", "admin"],
 			required: true,
 		},
+		avatar: {
+			type: String,
+		},
 		department: {
 			type: String,
 			enum: [

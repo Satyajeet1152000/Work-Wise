@@ -3,26 +3,31 @@ import { Clock3 } from "lucide-react";
 import { TaskType } from "@/lib/schema";
 import { useEffect, useState } from "react";
 import { useModal } from "@/context/ModelContext";
+import { formatDate, formatTime } from "@/lib/dateAndTimeFormatter";
 
 interface TaskProps {
 	data: TaskType;
+	color: string;
 }
 
-const Task = ({ data }: TaskProps) => {
+function hexToRgb(hex: string): string {
+	// Remove # if present
+	hex = hex.replace(/^#/, "");
+
+	// Parse hex to RGB
+	const bigint = parseInt(hex, 16);
+	const r = (bigint >> 16) & 255;
+	const g = (bigint >> 8) & 255;
+	const b = bigint & 255;
+
+	return `${r}, ${g}, ${b}`;
+}
+
+const Task = ({ data, color }: TaskProps) => {
 	const [timeSpent, setTimeSpent] = useState<number>(data.timeSpent || 0);
 	const [timerRunning, setTimerRunning] = useState<boolean>(false);
 
 	const { showModal } = useModal();
-
-	const formatTime = (seconds: number) => {
-		const hours = Math.floor(seconds / 3600);
-		const minutes = Math.floor((seconds % 3600) / 60);
-		const remainingSeconds = seconds % 60;
-
-		return `${hours.toString().padStart(2, "0")}:${minutes
-			.toString()
-			.padStart(2, "0")}:${remainingSeconds.toString().padStart(2, "0")}`;
-	};
 
 	useEffect(() => {
 		let timer: NodeJS.Timeout | undefined;
@@ -39,14 +44,18 @@ const Task = ({ data }: TaskProps) => {
 
 	return (
 		<div
+			style={{
+				borderColor: color,
+			}}
 			className={cn(
-				"border-2 rounded-lg p-4 flex flex-col gap-3 bg-white dark:bg-gray-800 shadow-sm transition-transform duration-150 ease-in-out hover:scale-105 hover:cursor-pointer",
-				{
-					"border-blue-500": data.category === "BAU",
-					"border-green-500": data.category === "AdHoc",
-					"border-purple-500": data.category === "Project",
-				}
+				`border-2 rounded-lg p-4 flex flex-col gap-3 bg-white dark:bg-gray-800 transition-transform duration-150 ease-in-out hover:cursor-pointer`
 			)}
+			onMouseEnter={(e) => {
+				e.currentTarget.style.boxShadow = `0 0 15px 10px ${color}50`;
+			}}
+			onMouseLeave={(e) => {
+				e.currentTarget.style.boxShadow = "none";
+			}}
 			onClick={() => showModal(data)}
 		>
 			<div className='flex items-center justify-between'>
@@ -58,18 +67,18 @@ const Task = ({ data }: TaskProps) => {
 					className={cn(
 						"inline-block px-3 py-1 text-sm font-medium rounded-full capitalize",
 						{
-							"bg-gray-300 text-gray-800":
+							"bg-gray-400 text-gray-800":
 								data.status === "Pending",
-							"bg-blue-300 text-blue-800":
+							"bg-blue-400 text-blue-800":
 								data.status === "InProgress",
-							"bg-green-300 text-green-800":
+							"bg-green-400 text-green-800":
 								data.status === "Completed",
-							"bg-red-300 text-red-800":
+							"bg-red-400 text-red-800":
 								data.status === "Overdue",
 						}
 					)}
 				>
-					{data.status}
+					{data.status === "InProgress" ? "In Progress" : data.status}
 				</span>
 			</div>
 
@@ -111,11 +120,20 @@ const Task = ({ data }: TaskProps) => {
 
 			{/* deadline */}
 			<div className='flex items-center text-gray-600 dark:text-gray-300 text-sm justify-between'>
-				<div className='flex'>
-					<Clock3 className='mr-1 h-4 w-4' />
-					<span>
-						{new Date(data.deadline as Date).toLocaleDateString()}
-					</span>
+				<div>
+					<div className='flex items-center text-green-500'>
+						<Clock3 className='mr-1 h-4 w-4' />
+
+						<span>
+							{formatDate(new Date(data.createdAt as Date))}
+						</span>
+					</div>
+					<div className='flex items-center text-red-500'>
+						<Clock3 className='mr-1 h-4 w-4' />
+						<span>
+							{formatDate(new Date(data.deadline as Date))}
+						</span>
+					</div>
 				</div>
 
 				<div className='flex items-center space-x-2'>

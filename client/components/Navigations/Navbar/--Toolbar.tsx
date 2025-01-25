@@ -3,14 +3,12 @@
 import { BellDot, ChevronsRight, Moon, Sun } from "lucide-react";
 import { useTheme } from "next-themes";
 import useMount from "@/hooks/useMount";
-import { Button } from "../ui/button";
-import { useUser } from "@/context/UserContext";
+import { Button } from "../../ui/button";
+import { signOut } from "next-auth/react";
 
 const Toolbar = () => {
 	const { theme, setTheme } = useTheme();
 	const mount = useMount();
-
-	const { logout } = useUser();
 
 	if (!mount) return null;
 
@@ -43,7 +41,7 @@ const Toolbar = () => {
 			<Button
 				variant={"link"}
 				className='text-lg text-gray-500'
-				onClick={() => logout()}
+				onClick={() => signOut({ callbackUrl: "/login" })}
 			>
 				Logout
 			</Button>

@@ -35,15 +35,12 @@ export function IndividualEfficiency({
 	const chartData = [{ name, efficiencyScore }];
 
 	return (
-		<Card className='flex flex-col w-full'>
+		<Card className='flex flex-col h-full'>
 			<CardHeader className='items-center pb-0'>
-				<CardTitle>Your Efficiency Score</CardTitle>
+				<CardTitle>{name}</CardTitle>
 			</CardHeader>
-			<CardContent className='flex-1 pb-0'>
-				<ChartContainer
-					config={chartConfig}
-					className='mx-auto aspect-square '
-				>
+			<CardContent className='flex-1 pb-0 '>
+				<ChartContainer config={chartConfig} className=''>
 					<RadialBarChart
 						data={chartData}
 						startAngle={0}
@@ -106,7 +103,7 @@ export function IndividualEfficiency({
 					</RadialBarChart>
 				</ChartContainer>
 			</CardContent>
-			<CardFooter className='flex-col gap-2 text-lg text-wrap'>
+			<CardFooter className='flex-col gap-2 text-lg text-wrap text-center'>
 				<span className='text-xl font-medium'>Feedback</span>
 				{feedback}
 			</CardFooter>
