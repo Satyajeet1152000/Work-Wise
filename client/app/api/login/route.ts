@@ -5,7 +5,7 @@ import { NextResponse, NextRequest } from "next/server";
 import { signIn } from "@/auth";
 import { AuthError } from "next-auth";
 
-export async function POST(req: NextRequest, res: NextResponse) {
+export async function POST(req: NextRequest) {
 	const data = await req.json();
 	const { email, password, type } = data;
 

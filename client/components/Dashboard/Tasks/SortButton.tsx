@@ -3,13 +3,7 @@
 import { ArrowDownNarrowWide, ArrowUpNarrowWide } from "lucide-react";
 import { useState } from "react";
 
-const SortButton = ({
-	color,
-	onClick,
-}: {
-	color: string;
-	onClick: (sort: string) => void;
-}) => {
+const SortButton = ({ onClick }: { onClick: (sort: string) => void }) => {
 	const [sortBy, setSortBy] = useState("asc");
 
 	const handleClick = () => {

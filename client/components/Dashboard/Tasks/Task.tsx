@@ -10,19 +10,6 @@ interface TaskProps {
 	color: string;
 }
 
-function hexToRgb(hex: string): string {
-	// Remove # if present
-	hex = hex.replace(/^#/, "");
-
-	// Parse hex to RGB
-	const bigint = parseInt(hex, 16);
-	const r = (bigint >> 16) & 255;
-	const g = (bigint >> 8) & 255;
-	const b = bigint & 255;
-
-	return `${r}, ${g}, ${b}`;
-}
-
 const Task = ({ data, color }: TaskProps) => {
 	const [timeSpent, setTimeSpent] = useState<number>(data.timeSpent || 0);
 	const [timerRunning, setTimerRunning] = useState<boolean>(false);

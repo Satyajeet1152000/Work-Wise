@@ -1,15 +1,14 @@
-// import { AvatarProps } from "@radix-ui/react-avatar";
-import { AvatarProps } from "@radix-ui/react-avatar";
+// import { AvatarProps } from "@radix-ui/react-avatar
 import { Avatar } from "../../ui/avatar";
 import Image from "next/image";
 import { auth } from "@/auth";
 
-type UserAvatarProps = Partial<AvatarProps> & {
-	user: {
-		name: string;
-		image: string;
-	};
-};
+// type UserAvatarProps = Partial<AvatarProps> & {
+// 	user: {
+// 		name: string;
+// 		image: string;
+// 	};
+// };
 const UserAvatar = async () => {
 	const session = await auth();
 	return (

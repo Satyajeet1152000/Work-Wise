@@ -1,4 +1,4 @@
-import { auth } from "@/auth";
+// import { auth } from "@/auth";
 import Navbar from "@/components/Navigations/Navbar";
 import SidePanel from "@/components/Navigations/Side-Panel";
 import React from "react";
@@ -8,7 +8,7 @@ const layout = async ({
 }: Readonly<{
 	children: React.ReactNode;
 }>) => {
-	const data = await auth();
+	// const data = await auth();
 	return (
 		<>
 			<SidePanel />

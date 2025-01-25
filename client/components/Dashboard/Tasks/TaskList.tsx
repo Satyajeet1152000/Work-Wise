@@ -45,7 +45,7 @@ const TaskList = ({ category, data, color, isLoading }: TaskListProps) => {
 				style={{ backgroundColor: `${color}cc` }}
 			>
 				<h1>{category}</h1>
-				<SortButton color={color} onClick={handleSortBy} />
+				<SortButton onClick={handleSortBy} />
 			</div>
 			{isLoading ? (
 				<ListSkeleton />

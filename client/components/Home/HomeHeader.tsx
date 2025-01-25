@@ -1,5 +1,4 @@
 import { auth } from "@/auth";
-import { CircleHelp } from "lucide-react";
 import React from "react";
 
 const HomeHeader = async () => {

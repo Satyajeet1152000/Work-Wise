@@ -94,7 +94,7 @@ const LoginForm = () => {
 					});
 				}
 			} catch (error) {
-				// console.error("Error during login", error);
+				console.error("Error during login", error);
 				setFormSuccess({
 					success: false,
 					message: "Login Form Submission Errors",
