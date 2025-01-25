@@ -16,6 +16,7 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import { z } from "zod";
 import FormSuccess from "../FormSuccess";
 import { RegisterFormSchema } from "@/lib/schema";
+import { useRouter } from "next/navigation";
 // import register from "@/actions/auth/register";
 
 const RegisterForm = () => {
@@ -24,7 +25,7 @@ const RegisterForm = () => {
 		success: false,
 		message: "",
 	});
-	// const router = useRouter();
+	const router = useRouter();
 
 	const form = useForm<z.infer<typeof RegisterFormSchema>>({
 		resolver: zodResolver(RegisterFormSchema),
@@ -47,6 +48,8 @@ const RegisterForm = () => {
 
 			const result = await res.json();
 
+			console.log(result);
+
 			if (!result.success) {
 				setFormSuccess({
 					success: false,
@@ -60,6 +63,7 @@ const RegisterForm = () => {
 					? "Registration complete."
 					: result.error,
 			});
+			router.push("/home");
 		});
 	};
 

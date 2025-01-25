@@ -36,11 +36,11 @@ const userSchema = new mongoose.Schema(
 				"IT",
 				"Accounting",
 			],
-			required: true,
+			// required: true,
 		},
 		position: {
 			type: String,
-			required: true,
+			// required: true,
 		},
 		dateJoined: {
 			type: Date,

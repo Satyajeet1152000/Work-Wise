@@ -4,19 +4,35 @@ import jwt from "jsonwebtoken";
 export const signup = async (req, res) => {
 	const { name, email, password } = req.body;
 
+	// console.log(name, email, password);
 	try {
-		const user = await User.create({ name, email, password });
-		const token = jwt.sign(
-			{ id: user._id, name, email },
-			process.env.JWT_SECRET,
-			{
-				expiresIn: "1h",
-			}
-		);
+		const user = await User.findOne({ email });
 
-		res.status(201).json({ success: true, token });
+		if (user) {
+			// console.log("user found");
+			return res
+				.status(400)
+				.json({ success: false, error: "User already exist" });
+		}
+		// console.log("user not found");
+		// console.log(user);
+		const newUser = await User.create({
+			name,
+			email,
+			password,
+			emailVerified: null,
+			role: "employee",
+		});
+
+		newUser.save();
+
+		res.status(201).json({
+			success: true,
+			message: "Registration successful",
+		});
 	} catch (error) {
-		res.status(400).json({ success: false, error: "User already exist" });
+		// console.log(error);
+		res.status(400).json({ success: false, error: "Server Error" });
 	}
 };
 
