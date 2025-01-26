@@ -1,8 +1,6 @@
 import { Bell, MessageSquareMore, Settings } from "lucide-react";
 import React from "react";
-import UserAvatar from "./UserAvatar";
-import ThemeSwitchButton from "./ThemeSwitchButton";
-import LogoutButton from "./LogoutButton";
+import UserAvatarMenuContainer from "./Avatar/UserAvatarContainer";
 
 const LeftNavTool = () => {
 	return (
@@ -11,16 +9,11 @@ const LeftNavTool = () => {
 				<MessageSquareMore />
 				<div className='bg-sky-400 w-3 h-3 rounded-full absolute top-0 right-0'></div>
 			</button>
-			<button className='hover:scale-125'>
-				<Settings />
-			</button>
 			<button className='hover:scale-125 relative'>
 				<Bell />
 				<div className='bg-sky-400 w-3 h-3 rounded-full absolute top-0 right-0'></div>
 			</button>
-			<ThemeSwitchButton />
-			<LogoutButton />
-			<UserAvatar />
+			<UserAvatarMenuContainer />
 		</div>
 	);
 };

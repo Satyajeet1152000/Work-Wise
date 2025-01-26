@@ -7,8 +7,7 @@ const ThemeSwitchButton = () => {
 	const { theme, setTheme } = useTheme();
 	return (
 		<button
-			className='hover:scale-125 relative'
-			// variant={"ghost"}
+			className={`flex w-full gap-x-2 px-3 py-2 text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 dark:hover:text-white rounded-lg`}
 			onClick={() => {
 				if (theme === "dark") {
 					setTheme("light");
@@ -17,7 +16,15 @@ const ThemeSwitchButton = () => {
 				}
 			}}
 		>
-			{theme === "light" ? <Moon /> : <Sun />}
+			{theme === "light" ? (
+				<>
+					<Moon /> Dark Theme
+				</>
+			) : (
+				<>
+					<Sun /> Light Theme
+				</>
+			)}{" "}
 		</button>
 	);
 };

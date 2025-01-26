@@ -22,7 +22,7 @@ const data = [
 const Menus = () => {
 	const path = usePathname();
 	return (
-		<div className='flex flex-col gap-y-2'>
+		<div className='flex h-fit justify-between md:flex-col gap-y-2 '>
 			{data.map((d, i) => (
 				<a
 					key={i}
@@ -35,7 +35,7 @@ const Menus = () => {
 					)}
 				>
 					{d.icon}
-					{d.name}
+					<span className='hidden lg:block'>{d.name}</span>
 				</a>
 			))}
 		</div>

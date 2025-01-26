@@ -39,7 +39,7 @@ const TasksListSection = ({
 					<div
 						key={c.category}
 						id={c.category}
-						className='flex-1 space-y-5 '
+						className='flex-1 space-y-5'
 					>
 						<TaskList
 							category={c.category}

@@ -3,7 +3,7 @@ import React from "react";
 
 const Logo = () => {
 	return (
-		<div className='flex justify-center items-center w-fit gap-2 mx-3'>
+		<div className='flex justify-center items-center w-fit gap-2 mx-3 scale-90 md:scale-100'>
 			<div className='flex items-center justify-center relative w-fit'>
 				<Box strokeWidth={2} height={40} width={40} />
 				<Box

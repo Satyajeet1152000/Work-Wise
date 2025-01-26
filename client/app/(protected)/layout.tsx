@@ -13,7 +13,7 @@ const layout = async ({
 		<>
 			<SidePanel />
 			<Navbar />
-			<main className='mt-24 ml-64'>{children}</main>
+			<main className='mt-24 md:ml-20 lg:ml-64'>{children}</main>
 		</>
 	);
 };
