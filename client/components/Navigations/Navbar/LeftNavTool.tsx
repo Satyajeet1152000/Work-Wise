@@ -1,4 +1,4 @@
-import { Bell, MessageSquareMore, Settings } from "lucide-react";
+import { Bell, MessageSquareMore } from "lucide-react";
 import React from "react";
 import UserAvatarMenuContainer from "./Avatar/UserAvatarContainer";
 
