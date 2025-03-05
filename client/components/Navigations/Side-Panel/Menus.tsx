@@ -3,10 +3,10 @@ import { cn } from "@/lib/utils";
 import {
 	Bot,
 	ChartNoAxesCombined,
-	Home,
+	// Home,
 	LayoutDashboard,
-	Settings,
-	Users,
+	// Settings,
+	// Users,
 } from "lucide-react";
 import { usePathname } from "next/navigation";
 
