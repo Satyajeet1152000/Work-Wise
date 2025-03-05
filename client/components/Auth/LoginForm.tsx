@@ -86,7 +86,7 @@ const LoginForm = () => {
 						success: true,
 						message: "Login Successful",
 					});
-					router.push("/home");
+					router.push("/dashboard");
 				} else {
 					setFormSuccess({
 						success: false,

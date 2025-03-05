@@ -11,13 +11,13 @@ import {
 import { usePathname } from "next/navigation";
 
 const data = [
-	{ name: "Home", icon: <Home />, href: "/home" },
+	// { name: "Home", icon: <Home />, href: "/home" },
 	{ name: "Dashboard", icon: <LayoutDashboard />, href: "/dashboard" },
-	{ name: "Teams", icon: <Users />, href: "" },
+	// { name: "Teams", icon: <Users />, href: "/teams" },
 	// { name: "Boards", icon: <SquareKanbanIcon />  href: "/boards" },
 	{ name: "Analytics", icon: <ChartNoAxesCombined />, href: "/analytics" },
 	{ name: "AI Insights", icon: <Bot />, href: "/ai-insights" },
-	{ name: "Settings", icon: <Settings />, href: "" },
+	// { name: "Settings", icon: <Settings />, href: "/settings" },
 ];
 const Menus = () => {
 	const path = usePathname();
